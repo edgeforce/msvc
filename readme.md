@@ -1,10 +1,6 @@
-<table width="624" cellspacing="0" border="0"></table>
-
-<font size="2" face="Verdana"><script language="JSCRIPT">function checkExpand( ) { if ("" != event.srcElement.id) { var ch = event.srcElement.id + "Child"; var el = document.all[ch]; if (null != el) { el.style.display = "none" == el.style.display ? "" : "none"; if (el.style.display != "none") // el.scrollIntoView(true); event.returnValue=false; } } }</script>
-
 ## <a name="readmevc_top">Visual C++ Readme</a>
 
-<sup>©</sup>1998 Microsoft Corporation. All rights reserved.
+© 1998 Microsoft Corporation. All rights reserved.
 
 Other product and company names herein may be the trademarks of their respective owners.
 
@@ -2436,5 +2432,3 @@ If you installed VCM 5.0 (previously available for web download) you will have t
 If you try to open an existing .mdb file from within VCM that is not a repository database (i.e., it does not contain the repository structure/tables), you will be asked if you want the repository tables added to the database. You should not do this for normal use; the repository should generally be in a separate database. This will work, but it can take as long as 10 minutes to create the repository structure in an existing .mdb file.
 
 To create a brand new .mdb file containing the repository structure, right-click in the folder outline, click Repository, click New, and then enter the name of the file you want to create.
-
-</font></font></font></font></font></font></font>
