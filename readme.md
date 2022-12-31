@@ -1,5 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
 
-<script language="JSCRIPT">function checkExpand( ) { if ("" != event.srcElement.id) { var ch = event.srcElement.id + "Child"; var el = document.all[ch]; if (null != el) { el.style.display = "none" == el.style.display ? "" : "none"; if (el.style.display != "none") // el.scrollIntoView(true); event.returnValue=false; } } }</script>
+<!----------------------------------------------------------------------------->
+<!--                          BEGIN HTML HEAD                                -->
+<!--                                                                         -->
+<HEAD>
+<TITLE>Visual C++ Readme</TITLE>
+<META NAME="MS-HAID" CONTENT="vcreadme" HTTP-EQUIV="Content-Type" CHARSET="Windows-1252">
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=624></TABLE>
+<BODY BGCOLOR="White" TEXT="Black" LINK="Blue" VLINK="Purple" onclick="checkExpand( )">
+<!-- White=#FFFFFF Black=#000000 Blue=#0000FF -->
+<FONT FACE="Verdana" SIZE=2>
+</HEAD>
+<!--                                                                         -->
+<!--                             END HEADER                                  -->
+<!----------------------------------------------------------------------------->
+
+
+<!----------------------------------------------------------------------------->
+<!--                            BEGIN JSCRIPT                                -->
+<!--                                                                         -->
+<script language="JSCRIPT">
+
+  function checkExpand( )
+  {
+     if ("" != event.srcElement.id)
+     {
+        var ch = event.srcElement.id + "Child";
+        var el = document.all[ch];
+        if (null != el)
+        {
+           el.style.display = "none" == el.style.display ? "" : "none";
+           if (el.style.display != "none")
+           //   el.scrollIntoView(true);
+           event.returnValue=false;
+        }
+     }
+  }
+</script>
+<!--                                                                         -->
+<!--                             END JSCRIPT                                 -->
+<!----------------------------------------------------------------------------->
 
 ## <a name="readmevc_top">Visual C++ Readme</a>
 
