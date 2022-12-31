@@ -1,8 +1,5 @@
-<!----------------------------------------------------------------------------->
-<!--                            BEGIN JSCRIPT                                -->
-<!--                                                                         -->
-<script language="JSCRIPT">
 
+<script type="text/javascript">
   function checkExpand( )
   {
      if ("" != event.srcElement.id)
@@ -19,14 +16,7 @@
      }
   }
 </script>
-<!--                                                                         -->
-<!--                             END JSCRIPT                                 -->
-<!----------------------------------------------------------------------------->
 
-<!----------------------------------------------------------------------------->
-<!--                             BEGIN README                                -->
-<!--                                                                         -->
-<!--                     Visual C++ Readme Version 6.0                       -->
 ## <a name="readmevc_top">Visual C++ Readme</a>
 
 <sup>©</sup>1998 Microsoft Corporation. All rights reserved.
