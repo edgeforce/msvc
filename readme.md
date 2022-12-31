@@ -1,21 +1,5 @@
 
-<script type="text/javascript">
-  function checkExpand( )
-  {
-     if ("" != event.srcElement.id)
-     {
-        var ch = event.srcElement.id + "Child";
-        var el = document.all[ch];
-        if (null != el)
-        {
-           el.style.display = "none" == el.style.display ? "" : "none";
-           if (el.style.display != "none")
-           //   el.scrollIntoView(true);
-           event.returnValue=false;
-        }
-     }
-  }
-</script>
+<script language="JSCRIPT">function checkExpand( ) { if ("" != event.srcElement.id) { var ch = event.srcElement.id + "Child"; var el = document.all[ch]; if (null != el) { el.style.display = "none" == el.style.display ? "" : "none"; if (el.style.display != "none") // el.scrollIntoView(true); event.returnValue=false; } } }</script>
 
 ## <a name="readmevc_top">Visual C++ Readme</a>
 
