@@ -1,47 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
-<HTML>
-
-<!----------------------------------------------------------------------------->
-<!--                          BEGIN HTML HEAD                                -->
-<!--                                                                         -->
-<HEAD>
-<TITLE>Visual C++ Readme</TITLE>
-<META NAME="MS-HAID" CONTENT="vcreadme" HTTP-EQUIV="Content-Type" CHARSET="Windows-1252">
-<TABLE CELLSPACING=0 BORDER=0 WIDTH=624></TABLE>
-<BODY BGCOLOR="White" TEXT="Black" LINK="Blue" VLINK="Purple" onclick="checkExpand( )">
-<!-- White=#FFFFFF Black=#000000 Blue=#0000FF -->
-<FONT FACE="Verdana" SIZE=2>
-</HEAD>
-<!--                                                                         -->
-<!--                             END HEADER                                  -->
-<!----------------------------------------------------------------------------->
-
-
-<!----------------------------------------------------------------------------->
-<!--                            BEGIN JSCRIPT                                -->
-<!--                                                                         -->
-<script language="JSCRIPT">
-
-  function checkExpand( )
-  {
-     if ("" != event.srcElement.id)
-     {
-        var ch = event.srcElement.id + "Child";
-        var el = document.all[ch];
-        if (null != el)
-        {
-           el.style.display = "none" == el.style.display ? "" : "none";
-           if (el.style.display != "none")
-           //   el.scrollIntoView(true);
-           event.returnValue=false;
-        }
-     }
-  }
-</script>
-<!--                                                                         -->
-<!--                             END JSCRIPT                                 -->
-<!----------------------------------------------------------------------------->
-
 ## <a name="readmevc_top">Visual C++ Readme</a>
 
 <sup>©</sup>1998 Microsoft Corporation. All rights reserved.
@@ -2476,3 +2432,21 @@ If you installed VCM 5.0 (previously available for web download) you will have t
 If you try to open an existing .mdb file from within VCM that is not a repository database (i.e., it does not contain the repository structure/tables), you will be asked if you want the repository tables added to the database. You should not do this for normal use; the repository should generally be in a separate database. This will work, but it can take as long as 10 minutes to create the repository structure in an existing .mdb file.
 
 To create a brand new .mdb file containing the repository structure, right-click in the folder outline, click Repository, click New, and then enter the name of the file you want to create.
+
+<script type="text/javascript">
+  function checkExpand( )
+  {
+     if ("" != event.srcElement.id)
+     {
+        var ch = event.srcElement.id + "Child";
+        var el = document.all[ch];
+        if (null != el)
+        {
+           el.style.display = "none" == el.style.display ? "" : "none";
+           if (el.style.display != "none")
+           //   el.scrollIntoView(true);
+           event.returnValue=false;
+        }
+     }
+  }
+</script>
