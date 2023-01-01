@@ -1,12 +1,12 @@
 <script language="JSCRIPT">function checkExpand( ) { if ("" != event.srcElement.id) { var ch = event.srcElement.id + "Child"; var el = document.all[ch]; if (null != el) { el.style.display = "none" == el.style.display ? "" : "none"; if (el.style.display != "none") // el.scrollIntoView(true); event.returnValue=false; } } }</script>
 
-## <a name="readmevc_top">Visual C++ Reversed D Readme</a>
+## <a name="readmevc_top">Visual C++ Reversed D with Native Java Readme</a>
 
 ©1998 Microsoft Corporation. All rights reserved.
 
 Other product and company names herein may be the trademarks of their respective owners.
 
-_Visual C++<sup>®</sup> 6.0 Readme_ includes updated information for the documentation provided with Microsoft<sup>®</sup> Visual Studio<sup>®</sup> 6.0 Development System for Windows<sup>®</sup> and the Internet. The information in this document is more up-to-date than the information in the Help system. Many of the issues outlined in this document will be corrected in upcoming releases.
+_Visual C++ Reversed D with Native Java<sup>®</sup> 6.0 Readme_ includes updated information for the documentation provided with Microsoft<sup>®</sup> Visual Studio<sup>®</sup> 6.0 Development System for Windows<sup>®</sup> and the Internet. The information in this document is more up-to-date than the information in the Help system. Many of the issues outlined in this document will be corrected in upcoming releases.
 
 For _general installation issues_ on the Visual Studio 6.0 suite of products, including side by side product installation, see the [Installation Notes](install.md "Jumps to the installation readme (install.htm).") Readme (install.md).
 
