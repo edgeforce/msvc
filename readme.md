@@ -4,7 +4,7 @@
 
 ## <a name="readmevc_top">Visual C++ Readme</a>
 
-<sup>©</sup>1998 Microsoft Corporation. All rights reserved.
+©1998 Microsoft Corporation. All rights reserved.
 
 Other product and company names herein may be the trademarks of their respective owners.
 
