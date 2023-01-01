@@ -310,7 +310,7 @@ $(CPPFLAGS) $*.cpp
 
 .c.obj:
 	$(CPP) @<<
-$(CFLAGS) $(CVARS) $*.c
+$(CFLAGS) $(CVARS) $*.cc
 <<
 
 .rc.res:

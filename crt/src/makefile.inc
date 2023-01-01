@@ -1949,25 +1949,25 @@ $(OBJDIR)\ullshr.obj	: $(PREOBJDIR)\ullshr.obj
 !elseif "$(TARGET_CPU)" == "PMAC"
 
 $(OBJDIR)\strset.obj:
- $(CC) $(CFLAGS:-Oi=) $(C_INCLUDES) -Fo$(OBJDIR)\ strset.c
+ $(CC) $(CFLAGS:-Oi=) $(C_INCLUDES) -Fo$(OBJDIR)\ strset.cc
 
 $(OBJDIR)\strcat.obj:
- $(CC) $(CFLAGS:-Oi=) $(C_INCLUDES) -Fo$(OBJDIR)\ strcat.c
+ $(CC) $(CFLAGS:-Oi=) $(C_INCLUDES) -Fo$(OBJDIR)\ strcat.cc
 
 $(OBJDIR)\strcmp.obj:
- $(CC) $(CFLAGS:-Oi=) $(C_INCLUDES) -Fo$(OBJDIR)\ strcmp.c
+ $(CC) $(CFLAGS:-Oi=) $(C_INCLUDES) -Fo$(OBJDIR)\ strcmp.cc
 
 $(OBJDIR)\strlen.obj:
- $(CC) $(CFLAGS:-Oi=) $(C_INCLUDES) -Fo$(OBJDIR)\ strlen.c
+ $(CC) $(CFLAGS:-Oi=) $(C_INCLUDES) -Fo$(OBJDIR)\ strlen.cc
 
 $(OBJDIR)\memcpy.obj:
- $(CC) $(CFLAGS:-Oi=) $(C_INCLUDES) -Fo$(OBJDIR)\ memcpy.c
+ $(CC) $(CFLAGS:-Oi=) $(C_INCLUDES) -Fo$(OBJDIR)\ memcpy.cc
 
 $(OBJDIR)\memcmp.obj:
- $(CC) $(CFLAGS:-Oi=) $(C_INCLUDES) -Fo$(OBJDIR)\ memcmp.c
+ $(CC) $(CFLAGS:-Oi=) $(C_INCLUDES) -Fo$(OBJDIR)\ memcmp.cc
 
 $(OBJDIR)\memset.obj:
- $(CC) $(CFLAGS:-Oi=) $(C_INCLUDES) -Fo$(OBJDIR)\ memset.c
+ $(CC) $(CFLAGS:-Oi=) $(C_INCLUDES) -Fo$(OBJDIR)\ memset.cc
 
 $(OBJDIR)\chkstk.obj: $(PREOBJDIR)\chkstk.obj
 	copy $(PREOBJDIR)\chkstk.obj $@

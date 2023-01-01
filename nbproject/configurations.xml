@@ -1,0 +1,2977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="atl">
+        <df name="include">
+          <in>atlconv.cpp</in>
+          <in>atlctl.cpp</in>
+          <in>atlimpl.cpp</in>
+          <in>atlwin.cpp</in>
+          <in>statreg.cpp</in>
+        </df>
+        <df name="src">
+          <in>atl.cpp</in>
+          <in>regobj.cpp</in>
+          <in>stdafx.cpp</in>
+        </df>
+      </df>
+      <df name="crt">
+        <df name="src">
+          <df name="platform">
+            <in>chkstk.asm</in>
+            <in>dllsupp.asm</in>
+            <in>enable.asm</in>
+            <in>fp8.cc</in>
+            <in>inp.asm</in>
+            <in>lldiv.asm</in>
+            <in>llmul.asm</in>
+            <in>llrem.asm</in>
+            <in>llshl.asm</in>
+            <in>llshr.asm</in>
+            <in>mbscat.asm</in>
+            <in>memccpy.asm</in>
+            <in>memchr.asm</in>
+            <in>memcmp.asm</in>
+            <in>memcpy.asm</in>
+            <in>memicmp.asm</in>
+            <in>memmove.asm</in>
+            <in>memset.asm</in>
+            <in>outp.asm</in>
+            <in>sehsupp.cc</in>
+            <in>strcat.asm</in>
+            <in>strchr.asm</in>
+            <in>strcmp.asm</in>
+            <in>strcspn.asm</in>
+            <in>stricmp.asm</in>
+            <in>strlen.asm</in>
+            <in>strncat.asm</in>
+            <in>strncmp.asm</in>
+            <in>strncpy.asm</in>
+            <in>strnicmp.asm</in>
+            <in>strnset.asm</in>
+            <in>strpbrk.asm</in>
+            <in>strrchr.asm</in>
+            <in>strrev.asm</in>
+            <in>strset.asm</in>
+            <in>strspn.asm</in>
+            <in>strstr.asm</in>
+            <in>ulldiv.asm</in>
+            <in>ullrem.asm</in>
+            <in>ullshr.asm</in>
+          </df>
+          <in>_ctype.cc</in>
+          <in>_filbuf.cc</in>
+          <in>_file.cc</in>
+          <in>_filwbuf.cc</in>
+          <in>_flsbuf.cc</in>
+          <in>_flswbuf.cc</in>
+          <in>_fptostr.cc</in>
+          <in>_freebuf.cc</in>
+          <in>_getbuf.cc</in>
+          <in>_ios.cpp</in>
+          <in>_iostrea.cpp</in>
+          <in>_mbslen.cc</in>
+          <in>_newmode.cc</in>
+          <in>_open.cc</in>
+          <in>_setargv.cc</in>
+          <in>_sftbuf.cc</in>
+          <in>_strerr.cc</in>
+          <in>_strstre.cpp</in>
+          <in>_tolower.cc</in>
+          <in>_toupper.cc</in>
+          <in>_wctype.cc</in>
+          <in>_wopen.cc</in>
+          <in>_wstargv.cc</in>
+          <in>a_cmp.cc</in>
+          <in>a_env.cc</in>
+          <in>a_loc.cc</in>
+          <in>a_map.cc</in>
+          <in>a_str.cc</in>
+          <in>abort.cc</in>
+          <in>abs.cc</in>
+          <in>access.cc</in>
+          <in>adjustfd.cc</in>
+          <in>asctime.cc</in>
+          <in>assert.cc</in>
+          <in>atof.cc</in>
+          <in>atonexit.cc</in>
+          <in>atox.cc</in>
+          <in>aw_com.cc</in>
+          <in>binmode.cc</in>
+          <in>bsearch.cc</in>
+          <in>calloc.cc</in>
+          <in>cenvarg.cc</in>
+          <in>cerrinit.cpp</in>
+          <in>cfinfo.cc</in>
+          <in>cgets.cc</in>
+          <in>charmax.cc</in>
+          <in>chdir.cc</in>
+          <in>chmod.cc</in>
+          <in>chsize.cc</in>
+          <in>cininit.cpp</in>
+          <in>cinitexe.cc</in>
+          <in>clearerr.cc</in>
+          <in>clock.cc</in>
+          <in>cloginit.cpp</in>
+          <in>close.cc</in>
+          <in>closeall.cc</in>
+          <in>cmiscdat.cc</in>
+          <in>commit.cc</in>
+          <in>commode.cc</in>
+          <in>cprintf.cc</in>
+          <in>cputs.cc</in>
+          <in>creat.cc</in>
+          <in>crt0.cc</in>
+          <in>crt0dat.cc</in>
+          <in>crt0fp.cc</in>
+          <in>crt0init.cc</in>
+          <in>crt0msg.cc</in>
+          <in>crtdll.cc</in>
+          <in>crtexe.cc</in>
+          <in>crtexew.cc</in>
+          <in>crtlib.cc</in>
+          <in>crtmbox.cc</in>
+          <in>cscanf.cc</in>
+          <in>ctime.cc</in>
+          <in>ctype.cc</in>
+          <in>days.cc</in>
+          <in>dbgdel.cpp</in>
+          <in>dbgheap.cc</in>
+          <in>dbghook.cc</in>
+          <in>dbgnew.cpp</in>
+          <in>dbgrpt.cc</in>
+          <in>delete.cpp</in>
+          <in>delop.cpp</in>
+          <in>delop_s.cpp</in>
+          <in>difftime.cc</in>
+          <in>div.cc</in>
+          <in>dll_argv.cc</in>
+          <in>dllargv.cc</in>
+          <in>dllcrt0.cc</in>
+          <in>dlldef.cpp</in>
+          <in>dllmain.cc</in>
+          <in>dosmap.cc</in>
+          <in>dospawn.cc</in>
+          <in>drive.cc</in>
+          <in>drivemap.cc</in>
+          <in>drivfree.cc</in>
+          <in>dtoxtime.cc</in>
+          <in>dup.cc</in>
+          <in>dup2.cc</in>
+          <in>eof.cc</in>
+          <in>errmode.cc</in>
+          <in>execl.cc</in>
+          <in>execle.cc</in>
+          <in>execlp.cc</in>
+          <in>execlpe.cc</in>
+          <in>execv.cc</in>
+          <in>execve.cc</in>
+          <in>execvp.cc</in>
+          <in>execvpe.cc</in>
+          <in>expand.cc</in>
+          <in>fclose.cc</in>
+          <in>fcvt.cc</in>
+          <in>fdopen.cc</in>
+          <in>feoferr.cc</in>
+          <in>fflush.cc</in>
+          <in>fgetc.cc</in>
+          <in>fgetchar.cc</in>
+          <in>fgetpos.cc</in>
+          <in>fgets.cc</in>
+          <in>fgetwc.cc</in>
+          <in>fgetwchr.cc</in>
+          <in>fgetws.cc</in>
+          <in>filebuf.cpp</in>
+          <in>filebuf1.cpp</in>
+          <in>fileinfo.cc</in>
+          <in>fileno.cc</in>
+          <in>findaddr.cc</in>
+          <in>findfi64.cc</in>
+          <in>findfile.cc</in>
+          <in>fiopen.cpp</in>
+          <in>flength.cc</in>
+          <in>fleni64.cc</in>
+          <in>fopen.cc</in>
+          <in>fp10.cc</in>
+          <in>fprintf.cc</in>
+          <in>fputc.cc</in>
+          <in>fputchar.cc</in>
+          <in>fputs.cc</in>
+          <in>fputwc.cc</in>
+          <in>fputwchr.cc</in>
+          <in>fputws.cc</in>
+          <in>fread.cc</in>
+          <in>free.cc</in>
+          <in>freopen.cc</in>
+          <in>fscanf.cc</in>
+          <in>fseek.cc</in>
+          <in>fseeki64.cc</in>
+          <in>fsetpos.cc</in>
+          <in>fstat.cc</in>
+          <in>fstati64.cc</in>
+          <in>fstream.cpp</in>
+          <in>ftell.cc</in>
+          <in>ftelli64.cc</in>
+          <in>ftime.cc</in>
+          <in>fullpath.cc</in>
+          <in>fwprintf.cc</in>
+          <in>fwrite.cc</in>
+          <in>fwscanf.cc</in>
+          <in>gcvt.cc</in>
+          <in>getch.cc</in>
+          <in>getcwd.cc</in>
+          <in>getenv.cc</in>
+          <in>getpath.cc</in>
+          <in>getpid.cc</in>
+          <in>getproc.cc</in>
+          <in>getqloc.cc</in>
+          <in>gets.cc</in>
+          <in>getw.cc</in>
+          <in>getws.cc</in>
+          <in>gmtime.cc</in>
+          <in>handler.cpp</in>
+          <in>heapadd.cc</in>
+          <in>heapchk.cc</in>
+          <in>heapdump.cc</in>
+          <in>heapgrow.cc</in>
+          <in>heaphook.cc</in>
+          <in>heapinit.cc</in>
+          <in>heapmin.cc</in>
+          <in>heapprm.cc</in>
+          <in>heapsrch.cc</in>
+          <in>heapused.cc</in>
+          <in>heapwalk.cc</in>
+          <in>hpabort.cc</in>
+          <in>ifstream.cpp</in>
+          <in>initcoll.cc</in>
+          <in>initcon.cc</in>
+          <in>initctyp.cc</in>
+          <in>inithelp.cc</in>
+          <in>initmon.cc</in>
+          <in>initnum.cc</in>
+          <in>inittime.cc</in>
+          <in>input.cc</in>
+          <in>ioinit.cc</in>
+          <in>iomanip.cpp</in>
+          <in>ios.cpp</in>
+          <in>ios_dll.cc</in>
+          <in>iostream.cpp</in>
+          <in>iostrini.cpp</in>
+          <in>isatty.cc</in>
+          <in>isctype.cc</in>
+          <in>ismbalnm.cc</in>
+          <in>ismbalph.cc</in>
+          <in>ismbbyte.cc</in>
+          <in>ismbdgt.cc</in>
+          <in>ismbgrph.cc</in>
+          <in>ismbknj.cc</in>
+          <in>ismblgl.cc</in>
+          <in>ismblwr.cc</in>
+          <in>ismbprn.cc</in>
+          <in>ismbpunc.cc</in>
+          <in>ismbsle.cc</in>
+          <in>ismbspc.cc</in>
+          <in>ismbstr.cc</in>
+          <in>ismbupr.cc</in>
+          <in>istrchar.cpp</in>
+          <in>istrdbl.cpp</in>
+          <in>istream.cpp</in>
+          <in>istream1.cpp</in>
+          <in>istrflt.cpp</in>
+          <in>istrgdbl.cpp</in>
+          <in>istrget.cpp</in>
+          <in>istrgetl.cpp</in>
+          <in>istrgint.cpp</in>
+          <in>istrint.cpp</in>
+          <in>istrldbl.cpp</in>
+          <in>istrlong.cpp</in>
+          <in>istrshrt.cpp</in>
+          <in>istruint.cpp</in>
+          <in>istrulng.cpp</in>
+          <in>istrusht.cpp</in>
+          <in>iswctype.cc</in>
+          <in>labs.cc</in>
+          <in>lcnvinit.cc</in>
+          <in>lconv.cc</in>
+          <in>ldiv.cc</in>
+          <in>lfind.cc</in>
+          <in>loaddll.cc</in>
+          <in>locale.cpp</in>
+          <in>locale0.cpp</in>
+          <in>localtim.cc</in>
+          <in>locking.cc</in>
+          <in>lsearch.cc</in>
+          <in>lseek.cc</in>
+          <in>lseeki64.cc</in>
+          <in>makepath.cc</in>
+          <in>malloc.cc</in>
+          <in>mbbtype.cc</in>
+          <in>mbccpy.cc</in>
+          <in>mbclen.cc</in>
+          <in>mbclevel.cc</in>
+          <in>mbctype.cc</in>
+          <in>mblen.cc</in>
+          <in>mbsbtype.cc</in>
+          <in>mbscat.cc</in>
+          <in>mbschr.cc</in>
+          <in>mbscmp.cc</in>
+          <in>mbscoll.cc</in>
+          <in>mbscspn.cc</in>
+          <in>mbsdec.cc</in>
+          <in>mbsdup.cc</in>
+          <in>mbsicmp.cc</in>
+          <in>mbsicoll.cc</in>
+          <in>mbsinc.cc</in>
+          <in>mbslen.cc</in>
+          <in>mbslwr.cc</in>
+          <in>mbsnbcat.cc</in>
+          <in>mbsnbcmp.cc</in>
+          <in>mbsnbcnt.cc</in>
+          <in>mbsnbcol.cc</in>
+          <in>mbsnbcpy.cc</in>
+          <in>mbsnbicm.cc</in>
+          <in>mbsnbico.cc</in>
+          <in>mbsnbset.cc</in>
+          <in>mbsncat.cc</in>
+          <in>mbsnccnt.cc</in>
+          <in>mbsncmp.cc</in>
+          <in>mbsncoll.cc</in>
+          <in>mbsncpy.cc</in>
+          <in>mbsnextc.cc</in>
+          <in>mbsnicmp.cc</in>
+          <in>mbsnicol.cc</in>
+          <in>mbsninc.cc</in>
+          <in>mbsnset.cc</in>
+          <in>mbspbrk.cc</in>
+          <in>mbsrchr.cc</in>
+          <in>mbsrev.cc</in>
+          <in>mbsset.cc</in>
+          <in>mbsspn.cc</in>
+          <in>mbsspnp.cc</in>
+          <in>mbsstr.cc</in>
+          <in>mbstok.cc</in>
+          <in>mbstowcs.cc</in>
+          <in>mbsupr.cc</in>
+          <in>mbtohira.cc</in>
+          <in>mbtokata.cc</in>
+          <in>mbtolwr.cc</in>
+          <in>mbtoupr.cc</in>
+          <in>mbtowc.cc</in>
+          <in>mbtowenv.cc</in>
+          <in>memccpy.cc</in>
+          <in>memchr.cc</in>
+          <in>memcmp.cc</in>
+          <in>memcpy.cc</in>
+          <in>memicmp.cc</in>
+          <in>memmove.cc</in>
+          <in>memset.cc</in>
+          <in>merr.cc</in>
+          <in>mkdir.cc</in>
+          <in>mktemp.cc</in>
+          <in>mktime.cc</in>
+          <in>mlock.cc</in>
+          <in>msize.cc</in>
+          <in>mterrno.cc</in>
+          <in>mtlock.cc</in>
+          <in>ncommode.cc</in>
+          <in>new.cpp</in>
+          <in>new_mode.cpp</in>
+          <in>newmode.cc</in>
+          <in>newop.cpp</in>
+          <in>newop2.cpp</in>
+          <in>newop2_s.cpp</in>
+          <in>newop_s.cpp</in>
+          <in>nlsdata1.cc</in>
+          <in>nlsdata2.cc</in>
+          <in>nlsdata3.cc</in>
+          <in>nmktobat.cc</in>
+          <in>nomemory.cpp</in>
+          <in>ofstream.cpp</in>
+          <in>onexit.cc</in>
+          <in>open.cc</in>
+          <in>osfinfo.cc</in>
+          <in>ostrchar.cpp</in>
+          <in>ostrdbl.cpp</in>
+          <in>ostream.cpp</in>
+          <in>ostream1.cpp</in>
+          <in>ostrint.cpp</in>
+          <in>ostrldbl.cpp</in>
+          <in>ostrlong.cpp</in>
+          <in>ostrptr.cpp</in>
+          <in>ostrput.cpp</in>
+          <in>ostrshrt.cpp</in>
+          <in>ostruint.cpp</in>
+          <in>ostrulng.cpp</in>
+          <in>ostrusht.cpp</in>
+          <in>output.cc</in>
+          <in>perror.cc</in>
+          <in>pipe.cc</in>
+          <in>popen.cc</in>
+          <in>printf.cc</in>
+          <in>purevirt.cc</in>
+          <in>putch.cc</in>
+          <in>putenv.cc</in>
+          <in>puts.cc</in>
+          <in>putw.cc</in>
+          <in>putws.cc</in>
+          <in>qsort.cc</in>
+          <in>rand.cc</in>
+          <in>read.cc</in>
+          <in>realloc.cc</in>
+          <in>rename.cc</in>
+          <in>rewind.cc</in>
+          <in>rmdir.cc</in>
+          <in>rmtmp.cc</in>
+          <in>rotl.cc</in>
+          <in>rotr.cc</in>
+          <in>sbheap.cc</in>
+          <in>scanf.cc</in>
+          <in>searchen.cc</in>
+          <in>setargv.cc</in>
+          <in>setbuf.cc</in>
+          <in>setenv.cc</in>
+          <in>seterrm.cc</in>
+          <in>setlocal.cc</in>
+          <in>setmaxf.cc</in>
+          <in>setmode.cc</in>
+          <in>setnewh.cpp</in>
+          <in>setvbuf.cc</in>
+          <in>slbeep.cc</in>
+          <in>snprintf.cc</in>
+          <in>snwprint.cc</in>
+          <in>spawnl.cc</in>
+          <in>spawnle.cc</in>
+          <in>spawnlp.cc</in>
+          <in>spawnlpe.cc</in>
+          <in>spawnv.cc</in>
+          <in>spawnve.cc</in>
+          <in>spawnvp.cc</in>
+          <in>spawnvpe.cc</in>
+          <in>splitpat.cc</in>
+          <in>sprintf.cc</in>
+          <in>sscanf.cc</in>
+          <in>stat.cc</in>
+          <in>stati64.cc</in>
+          <in>stdargv.cc</in>
+          <in>stdenvp.cc</in>
+          <in>stdiostr.cpp</in>
+          <in>strcat.cc</in>
+          <in>strchr.cc</in>
+          <in>strcmp.cc</in>
+          <in>strcoll.cc</in>
+          <in>strcspn.cc</in>
+          <in>strdate.cc</in>
+          <in>strdup.cc</in>
+          <in>stream.cc</in>
+          <in>streamb.cpp</in>
+          <in>streamb1.cpp</in>
+          <in>strerror.cc</in>
+          <in>strftime.cc</in>
+          <in>stricmp.cc</in>
+          <in>stricoll.cc</in>
+          <in>string.cpp</in>
+          <in>strlen.cc</in>
+          <in>strlwr.cc</in>
+          <in>strmbdbp.cpp</in>
+          <in>strncat.cc</in>
+          <in>strncmp.cc</in>
+          <in>strncoll.cc</in>
+          <in>strncpy.cc</in>
+          <in>strnicmp.cc</in>
+          <in>strnicol.cc</in>
+          <in>strnset.cc</in>
+          <in>strpbrk.cc</in>
+          <in>strrchr.cc</in>
+          <in>strrev.cc</in>
+          <in>strset.cc</in>
+          <in>strspn.cc</in>
+          <in>strstr.cc</in>
+          <in>strstrea.cpp</in>
+          <in>strtime.cc</in>
+          <in>strtod.cc</in>
+          <in>strtok.cc</in>
+          <in>strtol.cc</in>
+          <in>strtoq.cc</in>
+          <in>strupr.cc</in>
+          <in>strxfrm.cc</in>
+          <in>stubs.cc</in>
+          <in>swab.cc</in>
+          <in>swprintf.cc</in>
+          <in>swscanf.cc</in>
+          <in>syserr.cc</in>
+          <in>system.cc</in>
+          <in>systime.cc</in>
+          <in>tell.cc</in>
+          <in>telli64.cc</in>
+          <in>tempnam.cc</in>
+          <in>thread.cc</in>
+          <in>threadex.cc</in>
+          <in>ti_inst.cpp</in>
+          <in>tidprint.cc</in>
+          <in>tidtable.cc</in>
+          <in>time.cc</in>
+          <in>timeset.cc</in>
+          <in>tmpfile.cc</in>
+          <in>tojisjms.cc</in>
+          <in>tolower.cc</in>
+          <in>tombbmbc.cc</in>
+          <in>toupper.cc</in>
+          <in>towlower.cc</in>
+          <in>towupper.cc</in>
+          <in>txtmode.cc</in>
+          <in>tzset.cc</in>
+          <in>umask.cc</in>
+          <in>uncaught.cpp</in>
+          <in>ungetc.cc</in>
+          <in>ungetwc.cc</in>
+          <in>unlink.cc</in>
+          <in>utime.cc</in>
+          <in>vfprintf.cc</in>
+          <in>vfwprint.cc</in>
+          <in>vprintf.cc</in>
+          <in>vsnprint.cc</in>
+          <in>vsnwprnt.cc</in>
+          <in>vsprintf.cc</in>
+          <in>vswprint.cc</in>
+          <in>vwprintf.cc</in>
+          <in>w_cmp.cc</in>
+          <in>w_env.cc</in>
+          <in>w_loc.cc</in>
+          <in>w_map.cc</in>
+          <in>w_str.cc</in>
+          <in>waccess.cc</in>
+          <in>wait.cc</in>
+          <in>wasctime.cc</in>
+          <in>wcenvarg.cc</in>
+          <in>wchdir.cc</in>
+          <in>wchmod.cc</in>
+          <in>wcreat.cc</in>
+          <in>wcrt0.cc</in>
+          <in>wcrtexe.cc</in>
+          <in>wcrtexew.cc</in>
+          <in>wcscat.cc</in>
+          <in>wcschr.cc</in>
+          <in>wcscmp.cc</in>
+          <in>wcscoll.cc</in>
+          <in>wcscspn.cc</in>
+          <in>wcsdup.cc</in>
+          <in>wcsftime.cc</in>
+          <in>wcsicmp.cc</in>
+          <in>wcsicoll.cc</in>
+          <in>wcslen.cc</in>
+          <in>wcslwr.cc</in>
+          <in>wcsncat.cc</in>
+          <in>wcsncmp.cc</in>
+          <in>wcsncoll.cc</in>
+          <in>wcsncpy.cc</in>
+          <in>wcsnicmp.cc</in>
+          <in>wcsnicol.cc</in>
+          <in>wcsnset.cc</in>
+          <in>wcspbrk.cc</in>
+          <in>wcsrchr.cc</in>
+          <in>wcsrev.cc</in>
+          <in>wcsset.cc</in>
+          <in>wcsspn.cc</in>
+          <in>wcsstr.cc</in>
+          <in>wcstod.cc</in>
+          <in>wcstok.cc</in>
+          <in>wcstol.cc</in>
+          <in>wcstombs.cc</in>
+          <in>wcsupr.cc</in>
+          <in>wcsxfrm.cc</in>
+          <in>wctime.cc</in>
+          <in>wctomb.cc</in>
+          <in>wctrans.cc</in>
+          <in>wctype.cc</in>
+          <in>wdllargv.cc</in>
+          <in>wdospawn.cc</in>
+          <in>wexecl.cc</in>
+          <in>wexecle.cc</in>
+          <in>wexeclp.cc</in>
+          <in>wexeclpe.cc</in>
+          <in>wexecv.cc</in>
+          <in>wexecve.cc</in>
+          <in>wexecvp.cc</in>
+          <in>wexecvpe.cc</in>
+          <in>wfdopen.cc</in>
+          <in>wfindfil.cc</in>
+          <in>wfndfi64.cc</in>
+          <in>wfopen.cc</in>
+          <in>wfreopen.cc</in>
+          <in>wfullpat.cc</in>
+          <in>wgetcwd.cc</in>
+          <in>wgetenv.cc</in>
+          <in>wgetpath.cc</in>
+          <in>wild.cc</in>
+          <in>wildcard.cc</in>
+          <in>wincmdln.cc</in>
+          <in>wincrt0.cc</in>
+          <in>winput.cc</in>
+          <in>winsig.cc</in>
+          <in>winxfltr.cc</in>
+          <in>wiostrea.cpp</in>
+          <in>wlocale.cpp</in>
+          <in>wmakepat.cc</in>
+          <in>wmkdir.cc</in>
+          <in>wmktemp.cc</in>
+          <in>wopen.cc</in>
+          <in>woutput.cc</in>
+          <in>wperror.cc</in>
+          <in>wpopen.cc</in>
+          <in>wprintf.cc</in>
+          <in>wputenv.cc</in>
+          <in>wrename.cc</in>
+          <in>write.cc</in>
+          <in>wrmdir.cc</in>
+          <in>wrt2err.cc</in>
+          <in>wscanf.cc</in>
+          <in>wsearche.cc</in>
+          <in>wsetargv.cc</in>
+          <in>wsetenv.cc</in>
+          <in>wsetloca.cc</in>
+          <in>wspawnl.cc</in>
+          <in>wspawnle.cc</in>
+          <in>wspawnlp.cc</in>
+          <in>wspawnv.cc</in>
+          <in>wspawnve.cc</in>
+          <in>wspawnvp.cc</in>
+          <in>wsplitpa.cc</in>
+          <in>wspwnlpe.cc</in>
+          <in>wspwnvpe.cc</in>
+          <in>wstat.cc</in>
+          <in>wstati64.cc</in>
+          <in>wstdargv.cc</in>
+          <in>wstdenvp.cc</in>
+          <in>wstrdate.cc</in>
+          <in>wstrtime.cc</in>
+          <in>wsystem.cc</in>
+          <in>wtempnam.cc</in>
+          <in>wtmpfile.cc</in>
+          <in>wtombenv.cc</in>
+          <in>wtox.cc</in>
+          <in>wunlink.cc</in>
+          <in>wutime.cc</in>
+          <in>wwild.cc</in>
+          <in>wwincrt0.cc</in>
+          <in>wwncmdln.cc</in>
+          <in>xcosh.cc</in>
+          <in>xdnorm.cc</in>
+          <in>xdscale.cc</in>
+          <in>xdtest.cc</in>
+          <in>xexp.cc</in>
+          <in>xfcosh.cc</in>
+          <in>xfdnorm.cc</in>
+          <in>xfdscale.cc</in>
+          <in>xfdtest.cc</in>
+          <in>xfexp.cc</in>
+          <in>xfsinh.cc</in>
+          <in>xfvalues.cc</in>
+          <in>xlcosh.cc</in>
+          <in>xldnorm.cc</in>
+          <in>xldscale.cc</in>
+          <in>xldtest.cc</in>
+          <in>xlexp.cc</in>
+          <in>xlocale.cpp</in>
+          <in>xlock.cpp</in>
+          <in>xlpoly.cc</in>
+          <in>xlsinh.cc</in>
+          <in>xlvalues.cc</in>
+          <in>xmbtowc.cc</in>
+          <in>xncommod.cc</in>
+          <in>xpoly.cc</in>
+          <in>xsinh.cc</in>
+          <in>xstod.cc</in>
+          <in>xstrcoll.cc</in>
+          <in>xstrxfrm.cc</in>
+          <in>xtoa.cc</in>
+          <in>xtow.cc</in>
+          <in>xtxtmode.cc</in>
+          <in>xvalues.cc</in>
+          <in>xwcscoll.cc</in>
+          <in>xwcsxfrm.cc</in>
+          <in>xwctomb.cc</in>
+        </df>
+      </df>
+      <df name="include">
+        <in>agtctl_i.cc</in>
+        <in>agtsvr_i.cc</in>
+        <in>delayhlp.cpp</in>
+        <in>evncptsi.cc</in>
+        <in>mtsevt_i.cc</in>
+        <in>mtsgrp_i.cc</in>
+        <in>mtxadm_i.cc</in>
+        <in>mtxdm_i.cc</in>
+        <in>scrddt_i.cc</in>
+        <in>scrmgr_i.cc</in>
+        <in>scrsrv_i.cc</in>
+        <in>sspsdl_i.cc</in>
+      </df>
+      <df name="mfc">
+        <df name="src">
+          <df name="alpha">
+            <in>olecall_.s</in>
+          </df>
+          <in>afxabort.cpp</in>
+          <in>afxasert.cpp</in>
+          <in>afxcrit.cpp</in>
+          <in>afxdbcs.cpp</in>
+          <in>afxinl1.cpp</in>
+          <in>afxinl2.cpp</in>
+          <in>afxinl3.cpp</in>
+          <in>afxmem.cpp</in>
+          <in>afxstate.cpp</in>
+          <in>afxtls.cpp</in>
+          <in>afxtrace.cpp</in>
+          <in>app3d.cpp</in>
+          <in>app3ds.cpp</in>
+          <in>appcore.cpp</in>
+          <in>appdlg.cpp</in>
+          <in>appgray.cpp</in>
+          <in>apphelp.cpp</in>
+          <in>apphelpx.cpp</in>
+          <in>appinit.cpp</in>
+          <in>appmodul.cpp</in>
+          <in>appprnt.cpp</in>
+          <in>appterm.cpp</in>
+          <in>appui.cpp</in>
+          <in>appui1.cpp</in>
+          <in>appui2.cpp</in>
+          <in>appui3.cpp</in>
+          <in>arccore.cpp</in>
+          <in>arcex.cpp</in>
+          <in>arcobj.cpp</in>
+          <in>arcstrm.cpp</in>
+          <in>array_b.cpp</in>
+          <in>array_d.cpp</in>
+          <in>array_o.cpp</in>
+          <in>array_p.cpp</in>
+          <in>array_s.cpp</in>
+          <in>array_u.cpp</in>
+          <in>array_w.cpp</in>
+          <in>auxdata.cpp</in>
+          <in>barcool.cpp</in>
+          <in>barcore.cpp</in>
+          <in>bardlg.cpp</in>
+          <in>bardock.cpp</in>
+          <in>barstat.cpp</in>
+          <in>bartool.cpp</in>
+          <in>ccdata.cpp</in>
+          <in>cmdtarg.cpp</in>
+          <in>ctlcache.cpp</in>
+          <in>ctlconn.cpp</in>
+          <in>ctlcore.cpp</in>
+          <in>ctldata.cpp</in>
+          <in>ctlevent.cpp</in>
+          <in>ctlfont.cpp</in>
+          <in>ctlframe.cpp</in>
+          <in>ctlinl.cpp</in>
+          <in>ctlinplc.cpp</in>
+          <in>ctlintl.cpp</in>
+          <in>ctllic.cpp</in>
+          <in>ctlmodul.cpp</in>
+          <in>ctlnownd.cpp</in>
+          <in>ctlobj.cpp</in>
+          <in>ctlpbag.cpp</in>
+          <in>ctlpict.cpp</in>
+          <in>ctlppg.cpp</in>
+          <in>ctlprop.cpp</in>
+          <in>ctlpropx.cpp</in>
+          <in>ctlpset.cpp</in>
+          <in>ctlpstg.cpp</in>
+          <in>ctlpstm.cpp</in>
+          <in>ctlquick.cpp</in>
+          <in>ctlrefl.cpp</in>
+          <in>ctlreg.cpp</in>
+          <in>ctltrack.cpp</in>
+          <in>ctlview.cpp</in>
+          <in>daocore.cpp</in>
+          <in>daodfx.cpp</in>
+          <in>daoview.cpp</in>
+          <in>dbcore.cpp</in>
+          <in>dbflt.cpp</in>
+          <in>dblong.cpp</in>
+          <in>dbrfx.cpp</in>
+          <in>dbvar.cpp</in>
+          <in>dbview.cpp</in>
+          <in>dcmeta.cpp</in>
+          <in>dcprev.cpp</in>
+          <in>dlgclr.cpp</in>
+          <in>dlgcomm.cpp</in>
+          <in>dlgcore.cpp</in>
+          <in>dlgdata.cpp</in>
+          <in>dlgfile.cpp</in>
+          <in>dlgfloat.cpp</in>
+          <in>dlgfnt.cpp</in>
+          <in>dlgfr.cpp</in>
+          <in>dlgprnt.cpp</in>
+          <in>dlgprop.cpp</in>
+          <in>dlgtempl.cpp</in>
+          <in>dlldb.cpp</in>
+          <in>dllinit.cpp</in>
+          <in>dllmodul.cpp</in>
+          <in>dllnet.cpp</in>
+          <in>dllole.cpp</in>
+          <in>doccore.cpp</in>
+          <in>dockcont.cpp</in>
+          <in>dockstat.cpp</in>
+          <in>docmapi.cpp</in>
+          <in>docmgr.cpp</in>
+          <in>docmulti.cpp</in>
+          <in>docsingl.cpp</in>
+          <in>doctempl.cpp</in>
+          <in>dumpcont.cpp</in>
+          <in>dumpflt.cpp</in>
+          <in>dumpinit.cpp</in>
+          <in>dumpout.cpp</in>
+          <in>dumpstak.cpp</in>
+          <in>except.cpp</in>
+          <in>filecore.cpp</in>
+          <in>filefind.cpp</in>
+          <in>filelist.cpp</in>
+          <in>filemem.cpp</in>
+          <in>fileshrd.cpp</in>
+          <in>filest.cpp</in>
+          <in>filetxt.cpp</in>
+          <in>filex.cpp</in>
+          <in>fixalloc.cpp</in>
+          <in>inet.cpp</in>
+          <in>inetcall.cpp</in>
+          <in>isapi.cpp</in>
+          <in>isapimix.cpp</in>
+          <in>list_o.cpp</in>
+          <in>list_p.cpp</in>
+          <in>list_s.cpp</in>
+          <in>map_pp.cpp</in>
+          <in>map_pw.cpp</in>
+          <in>map_so.cpp</in>
+          <in>map_sp.cpp</in>
+          <in>map_ss.cpp</in>
+          <in>map_wo.cpp</in>
+          <in>map_wp.cpp</in>
+          <in>mtcore.cpp</in>
+          <in>mtex.cpp</in>
+          <in>nolib.cpp</in>
+          <in>objcore.cpp</in>
+          <in>occcont.cpp</in>
+          <in>occddx.cpp</in>
+          <in>occddxf.cpp</in>
+          <in>occdlg.cpp</in>
+          <in>occevent.cpp</in>
+          <in>occlock.cpp</in>
+          <in>occmgr.cpp</in>
+          <in>occsite.cpp</in>
+          <in>oleasmon.cpp</in>
+          <in>olebar.cpp</in>
+          <in>olecall.cpp</in>
+          <in>olecli1.cpp</in>
+          <in>olecli2.cpp</in>
+          <in>olecli3.cpp</in>
+          <in>olecnvrt.cpp</in>
+          <in>oleconn.cpp</in>
+          <in>oledata.cpp</in>
+          <in>oledisp1.cpp</in>
+          <in>oledisp2.cpp</in>
+          <in>oledlgs1.cpp</in>
+          <in>oledlgs2.cpp</in>
+          <in>oledlgs3.cpp</in>
+          <in>oledll.cpp</in>
+          <in>oledobj1.cpp</in>
+          <in>oledobj2.cpp</in>
+          <in>oledoc1.cpp</in>
+          <in>oledoc2.cpp</in>
+          <in>oledoccl.cpp</in>
+          <in>oledocip.cpp</in>
+          <in>oledocob.cpp</in>
+          <in>oledoctg.cpp</in>
+          <in>oledocvw.cpp</in>
+          <in>oledrop1.cpp</in>
+          <in>oledrop2.cpp</in>
+          <in>oleenum.cpp</in>
+          <in>oleexp.cpp</in>
+          <in>olefact.cpp</in>
+          <in>oleinit.cpp</in>
+          <in>oleipfrm.cpp</in>
+          <in>olelink.cpp</in>
+          <in>olelock.cpp</in>
+          <in>olemisc.cpp</in>
+          <in>olemon.cpp</in>
+          <in>olemsgf.cpp</in>
+          <in>olepset.cpp</in>
+          <in>olereg.cpp</in>
+          <in>olestrm.cpp</in>
+          <in>olesvr1.cpp</in>
+          <in>olesvr2.cpp</in>
+          <in>oletsvr.cpp</in>
+          <in>oletyplb.cpp</in>
+          <in>oleui1.cpp</in>
+          <in>oleui2.cpp</in>
+          <in>oleunk.cpp</in>
+          <in>olevar.cpp</in>
+          <in>olevar1.cpp</in>
+          <in>oleverb.cpp</in>
+          <in>plex.cpp</in>
+          <in>ppgcolor.cpp</in>
+          <in>ppgfont.cpp</in>
+          <in>ppgpict.cpp</in>
+          <in>ppgstock.cpp</in>
+          <in>sockcore.cpp</in>
+          <in>stdafx.cpp</in>
+          <in>strcore.cpp</in>
+          <in>strex.cpp</in>
+          <in>thrdcore.cpp</in>
+          <in>timecore.cpp</in>
+          <in>tooltip.cpp</in>
+          <in>trckrect.cpp</in>
+          <in>validadd.cpp</in>
+          <in>viewcmn.cpp</in>
+          <in>viewcore.cpp</in>
+          <in>viewedit.cpp</in>
+          <in>viewform.cpp</in>
+          <in>viewhtml.cpp</in>
+          <in>viewoled.cpp</in>
+          <in>viewprev.cpp</in>
+          <in>viewprnt.cpp</in>
+          <in>viewrich.cpp</in>
+          <in>viewscrl.cpp</in>
+          <in>winbtn.cpp</in>
+          <in>wincore.cpp</in>
+          <in>winctrl1.cpp</in>
+          <in>winctrl2.cpp</in>
+          <in>winctrl3.cpp</in>
+          <in>winctrl4.cpp</in>
+          <in>winctrl5.cpp</in>
+          <in>winctrl6.cpp</in>
+          <in>winctrl7.cpp</in>
+          <in>winfrm.cpp</in>
+          <in>winfrm2.cpp</in>
+          <in>winfrmx.cpp</in>
+          <in>wingdi.cpp</in>
+          <in>wingdix.cpp</in>
+          <in>winhand.cpp</in>
+          <in>winmain.cpp</in>
+          <in>winmdi.cpp</in>
+          <in>winmenu.cpp</in>
+          <in>winmini.cpp</in>
+          <in>winocc.cpp</in>
+          <in>winsplit.cpp</in>
+          <in>winstr.cpp</in>
+          <in>winutil.cpp</in>
+        </df>
+      </df>
+      <df name="vctools">
+        <df name="rc">
+          <in>rc.cc</in>
+        </df>
+        <df name="rcdll">
+          <in>charmap.cc</in>
+          <in>error.cc</in>
+          <in>getflags.cc</in>
+          <in>getmsg.cc</in>
+          <in>globals.cc</in>
+          <in>ltoa.cc</in>
+          <in>mktable.cc</in>
+          <in>p0expr.cc</in>
+          <in>p0gettok.cc</in>
+          <in>p0io.cc</in>
+          <in>p0keys.cc</in>
+          <in>p0macros.cc</in>
+          <in>p0prepro.cc</in>
+          <in>p1sup.cc</in>
+          <in>prerc.cc</in>
+          <in>rc.cc</in>
+          <in>rcdll.cc</in>
+          <in>rcfutil.cc</in>
+          <in>rcl.cc</in>
+          <in>rcmenu.cc</in>
+          <in>rcp.cc</in>
+          <in>rcpp.cc</in>
+          <in>rcpputil.cc</in>
+          <in>rcppx.cc</in>
+          <in>rcstring.cc</in>
+          <in>rctg.cc</in>
+          <in>rctp.cc</in>
+          <in>rcunicod.cc</in>
+          <in>rcutil.cc</in>
+          <in>rcx.cc</in>
+          <in>scanner.cc</in>
+          <in>tokens.cc</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile></projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>echo build</buildCommand>
+          <cleanCommand>echo clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="atl/include/atlconv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="atl/include/atlctl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="atl/include/atlimpl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="atl/include/atlwin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="atl/include/statreg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="atl/src/atl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="atl/src/regobj.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="atl/src/stdafx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_ctype.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_filbuf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_file.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_filwbuf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_flsbuf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_flswbuf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_fptostr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_freebuf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_getbuf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_ios.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_iostrea.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_mbslen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_newmode.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_open.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_setargv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_sftbuf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_strerr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_strstre.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_tolower.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_toupper.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_wctype.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_wopen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/_wstargv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/a_cmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/a_env.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/a_loc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/a_map.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/a_str.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/abort.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/abs.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/access.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/adjustfd.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/asctime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/assert.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/atof.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/atonexit.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/atox.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/aw_com.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/binmode.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/bsearch.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/calloc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/cenvarg.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/cerrinit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/cfinfo.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/cgets.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/charmax.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/chdir.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/chmod.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/chsize.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/cininit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/cinitexe.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/clearerr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/clock.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/cloginit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/close.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/closeall.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/cmiscdat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/commit.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/commode.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/cprintf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/cputs.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/creat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/crt0.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/crt0dat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/crt0fp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/crt0init.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/crt0msg.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/crtdll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/crtexe.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/crtexew.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/crtlib.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/crtmbox.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/cscanf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ctime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ctype.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/days.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/dbgdel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/dbgheap.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/dbghook.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/dbgnew.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/dbgrpt.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/delete.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/delop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/delop_s.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/difftime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/div.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/dll_argv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/dllargv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/dllcrt0.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/dlldef.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/dllmain.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/dosmap.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/dospawn.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/drive.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/drivemap.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/drivfree.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/dtoxtime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/dup.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/dup2.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/eof.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/errmode.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/execl.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/execle.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/execlp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/execlpe.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/execv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/execve.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/execvp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/execvpe.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/expand.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fclose.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fcvt.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fdopen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/feoferr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fflush.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fgetc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fgetchar.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fgetpos.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fgets.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fgetwc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fgetwchr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fgetws.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/filebuf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/filebuf1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fileinfo.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fileno.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/findaddr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/findfi64.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/findfile.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fiopen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/flength.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fleni64.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fopen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fp10.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fprintf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fputc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fputchar.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fputs.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fputwc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fputwchr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fputws.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fread.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/free.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/freopen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fscanf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fseek.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fseeki64.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fsetpos.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fstat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fstati64.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fstream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ftell.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ftelli64.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ftime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fullpath.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fwprintf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fwrite.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/fwscanf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/gcvt.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/getch.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/getcwd.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/getenv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/getpath.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/getpid.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/getproc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/getqloc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/gets.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/getw.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/getws.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/gmtime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/handler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/heapadd.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/heapchk.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/heapdump.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/heapgrow.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/heaphook.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/heapinit.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/heapmin.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/heapprm.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/heapsrch.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/heapused.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/heapwalk.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/hpabort.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ifstream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/initcoll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/initcon.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/initctyp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/inithelp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/initmon.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/initnum.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/inittime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/input.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ioinit.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/iomanip.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ios.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ios_dll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/iostream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/iostrini.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/isatty.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/isctype.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ismbalnm.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ismbalph.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ismbbyte.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ismbdgt.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ismbgrph.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ismbknj.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ismblgl.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ismblwr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ismbprn.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ismbpunc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ismbsle.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ismbspc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ismbstr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ismbupr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istrchar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istrdbl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istream1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istrflt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istrgdbl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istrget.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istrgetl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istrgint.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istrint.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istrldbl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istrlong.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istrshrt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istruint.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istrulng.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/istrusht.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/iswctype.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/labs.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/lcnvinit.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/lconv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ldiv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/lfind.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/loaddll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/locale.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/locale0.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/localtim.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/locking.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/lsearch.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/lseek.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/lseeki64.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/makepath.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/malloc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbbtype.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbccpy.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbclen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbclevel.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbctype.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mblen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsbtype.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbscat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbschr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbscmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbscoll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbscspn.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsdec.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsdup.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsicmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsicoll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsinc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbslen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbslwr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsnbcat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsnbcmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsnbcnt.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsnbcol.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsnbcpy.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsnbicm.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsnbico.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsnbset.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsncat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsnccnt.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsncmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsncoll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsncpy.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsnextc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsnicmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsnicol.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsninc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsnset.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbspbrk.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsrchr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsrev.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsset.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsspn.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsspnp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsstr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbstok.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbstowcs.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbsupr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbtohira.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbtokata.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbtolwr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbtoupr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbtowc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mbtowenv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/memccpy.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/memchr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/memcmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/memcpy.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/memicmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/memmove.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/memset.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/merr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mkdir.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mktemp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mktime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mlock.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/msize.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mterrno.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/mtlock.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ncommode.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/new.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/new_mode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/newmode.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/newop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/newop2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/newop2_s.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/newop_s.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/nlsdata1.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/nlsdata2.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/nlsdata3.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/nmktobat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/nomemory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ofstream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/onexit.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/open.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/osfinfo.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ostrchar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ostrdbl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ostream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ostream1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ostrint.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ostrldbl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ostrlong.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ostrptr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ostrput.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ostrshrt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ostruint.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ostrulng.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ostrusht.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/output.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/perror.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/pipe.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/platform/chkstk.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/dllsupp.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/enable.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/fp8.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/platform/inp.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/lldiv.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/llmul.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/llrem.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/llshl.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/llshr.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/mbscat.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/memccpy.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/memchr.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/memcmp.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/memcpy.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/memicmp.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/memmove.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/memset.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/outp.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/sehsupp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strcat.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strchr.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strcmp.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strcspn.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/stricmp.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strlen.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strncat.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strncmp.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strncpy.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strnicmp.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strnset.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strpbrk.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strrchr.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strrev.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strset.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strspn.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/strstr.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/ulldiv.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/ullrem.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/platform/ullshr.asm" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="crt/src/popen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/printf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/purevirt.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/putch.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/putenv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/puts.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/putw.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/putws.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/qsort.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/rand.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/read.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/realloc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/rename.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/rewind.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/rmdir.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/rmtmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/rotl.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/rotr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/sbheap.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/scanf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/searchen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/setargv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/setbuf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/setenv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/seterrm.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/setlocal.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/setmaxf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/setmode.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/setnewh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/setvbuf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/slbeep.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/snprintf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/snwprint.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/spawnl.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/spawnle.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/spawnlp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/spawnlpe.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/spawnv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/spawnve.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/spawnvp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/spawnvpe.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/splitpat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/sprintf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/sscanf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/stat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/stati64.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/stdargv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/stdenvp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/stdiostr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strcat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strchr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strcmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strcoll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strcspn.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strdate.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strdup.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/stream.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/streamb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/streamb1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strerror.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strftime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/stricmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/stricoll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/string.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strlen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strlwr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strmbdbp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strncat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strncmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strncoll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strncpy.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strnicmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strnicol.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strnset.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strpbrk.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strrchr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strrev.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strset.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strspn.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strstr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strstrea.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strtime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strtod.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strtok.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strtol.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strtoq.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strupr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/strxfrm.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/stubs.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/swab.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/swprintf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/swscanf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/syserr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/system.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/systime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/tell.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/telli64.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/tempnam.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/thread.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/threadex.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ti_inst.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/tidprint.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/tidtable.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/time.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/timeset.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/tmpfile.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/tojisjms.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/tolower.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/tombbmbc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/toupper.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/towlower.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/towupper.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/txtmode.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/tzset.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/umask.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/uncaught.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ungetc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/ungetwc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/unlink.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/utime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/vfprintf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/vfwprint.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/vprintf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/vsnprint.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/vsnwprnt.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/vsprintf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/vswprint.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/vwprintf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/w_cmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/w_env.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/w_loc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/w_map.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/w_str.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/waccess.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wait.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wasctime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcenvarg.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wchdir.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wchmod.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcreat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcrt0.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcrtexe.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcrtexew.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcscat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcschr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcscmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcscoll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcscspn.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsdup.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsftime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsicmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsicoll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcslen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcslwr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsncat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsncmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsncoll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsncpy.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsnicmp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsnicol.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsnset.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcspbrk.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsrchr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsrev.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsset.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsspn.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsstr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcstod.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcstok.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcstol.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcstombs.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsupr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wcsxfrm.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wctime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wctomb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wctrans.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wctype.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wdllargv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wdospawn.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wexecl.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wexecle.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wexeclp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wexeclpe.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wexecv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wexecve.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wexecvp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wexecvpe.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wfdopen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wfindfil.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wfndfi64.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wfopen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wfreopen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wfullpat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wgetcwd.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wgetenv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wgetpath.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wild.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wildcard.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wincmdln.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wincrt0.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/winput.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/winsig.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/winxfltr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wiostrea.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wlocale.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wmakepat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wmkdir.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wmktemp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wopen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/woutput.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wperror.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wpopen.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wprintf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wputenv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wrename.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/write.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wrmdir.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wrt2err.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wscanf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wsearche.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wsetargv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wsetenv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wsetloca.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wspawnl.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wspawnle.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wspawnlp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wspawnv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wspawnve.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wspawnvp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wsplitpa.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wspwnlpe.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wspwnvpe.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wstat.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wstati64.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wstdargv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wstdenvp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wstrdate.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wstrtime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wsystem.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wtempnam.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wtmpfile.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wtombenv.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wtox.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wunlink.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wutime.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wwild.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wwincrt0.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/wwncmdln.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xcosh.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xdnorm.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xdscale.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xdtest.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xexp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xfcosh.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xfdnorm.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xfdscale.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xfdtest.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xfexp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xfsinh.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xfvalues.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xlcosh.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xldnorm.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xldscale.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xldtest.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xlexp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xlocale.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xlock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xlpoly.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xlsinh.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xlvalues.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xmbtowc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xncommod.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xpoly.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xsinh.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xstod.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xstrcoll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xstrxfrm.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xtoa.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xtow.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xtxtmode.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xvalues.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xwcscoll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xwcsxfrm.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crt/src/xwctomb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/agtctl_i.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/agtsvr_i.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/delayhlp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/evncptsi.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/mtsevt_i.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/mtsgrp_i.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/mtxadm_i.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/mtxdm_i.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/scrddt_i.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/scrmgr_i.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/scrsrv_i.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/sspsdl_i.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/afxabort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/afxasert.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/afxcrit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/afxdbcs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/afxinl1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/afxinl2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/afxinl3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/afxmem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/afxstate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/afxtls.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/afxtrace.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/alpha/olecall_.s" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="mfc/src/app3d.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/app3ds.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/appcore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/appdlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/appgray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/apphelp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/apphelpx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/appinit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/appmodul.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/appprnt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/appterm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/appui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/appui1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/appui2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/appui3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/arccore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/arcex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/arcobj.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/arcstrm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/array_b.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/array_d.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/array_o.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/array_p.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/array_s.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/array_u.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/array_w.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/auxdata.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/barcool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/barcore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/bardlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/bardock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/barstat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/bartool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ccdata.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/cmdtarg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlcache.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlconn.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlcore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctldata.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlevent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlfont.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlframe.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlinl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlinplc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlintl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctllic.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlmodul.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlnownd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlobj.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlpbag.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlpict.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlppg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlprop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlpropx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlpset.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlpstg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlpstm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlquick.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlrefl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlreg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctltrack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ctlview.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/daocore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/daodfx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/daoview.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dbcore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dbflt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dblong.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dbrfx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dbvar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dbview.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dcmeta.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dcprev.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dlgclr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dlgcomm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dlgcore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dlgdata.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dlgfile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dlgfloat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dlgfnt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dlgfr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dlgprnt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dlgprop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dlgtempl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dlldb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dllinit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dllmodul.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dllnet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dllole.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/doccore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dockcont.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dockstat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/docmapi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/docmgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/docmulti.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/docsingl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/doctempl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dumpcont.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dumpflt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dumpinit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dumpout.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/dumpstak.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/except.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/filecore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/filefind.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/filelist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/filemem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/fileshrd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/filest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/filetxt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/filex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/fixalloc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/inet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/inetcall.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/isapi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/isapimix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/list_o.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/list_p.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/list_s.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/map_pp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/map_pw.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/map_so.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/map_sp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/map_ss.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/map_wo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/map_wp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/mtcore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/mtex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/nolib.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/objcore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/occcont.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/occddx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/occddxf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/occdlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/occevent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/occlock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/occmgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/occsite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oleasmon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olebar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olecall.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olecli1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olecli2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olecli3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olecnvrt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oleconn.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledata.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledisp1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledisp2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledlgs1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledlgs2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledlgs3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledll.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledobj1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledobj2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledoc1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledoc2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledoccl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledocip.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledocob.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledoctg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledocvw.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledrop1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oledrop2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oleenum.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oleexp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olefact.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oleinit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oleipfrm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olelink.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olelock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olemisc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olemon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olemsgf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olepset.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olereg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olestrm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olesvr1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olesvr2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oletsvr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oletyplb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oleui1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oleui2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oleunk.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olevar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/olevar1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/oleverb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/plex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ppgcolor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ppgfont.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ppgpict.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/ppgstock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/sockcore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/stdafx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/strcore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/strex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/thrdcore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/timecore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/tooltip.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/trckrect.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/validadd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/viewcmn.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/viewcore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/viewedit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/viewform.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/viewhtml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/viewoled.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/viewprev.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/viewprnt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/viewrich.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/viewscrl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winbtn.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/wincore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winctrl1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winctrl2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winctrl3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winctrl4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winctrl5.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winctrl6.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winctrl7.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winfrm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winfrm2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winfrmx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/wingdi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/wingdix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winhand.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winmain.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winmdi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winmenu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winmini.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winocc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winsplit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winstr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mfc/src/winutil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rc/rc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/charmap.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/error.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/getflags.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/getmsg.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/globals.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/ltoa.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/mktable.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/p0expr.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/p0gettok.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/p0io.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/p0keys.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/p0macros.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/p0prepro.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/p1sup.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/prerc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/rc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/rcdll.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/rcfutil.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/rcl.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/rcmenu.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/rcp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/rcpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/rcpputil.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/rcppx.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/rcstring.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/rctg.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/rctp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/rcunicod.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/rcutil.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/rcx.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/scanner.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vctools/rcdll/tokens.cc" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

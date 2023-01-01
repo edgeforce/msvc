@@ -937,7 +937,7 @@ LINK_LIBS = $(LINK_LIBS) $(BASE_LIBS)
 #----------------------------------------------------------------------------
 # Rules
 
-CC_COMMAND_LINE  = $(cflags) $(cbrowser) -Fo$(DBG_RTL)\ $(INC_FLAGS) $(@B).c
+CC_COMMAND_LINE  = $(cflags) $(cbrowser) -Fo$(DBG_RTL)\ $(INC_FLAGS) $(@B).cc
 
 CPP_COMMAND_LINE = $(cflags) $(cbrowser) -Fo$(DBG_RTL)\ $(INC_FLAGS) $(@B).cpp
 

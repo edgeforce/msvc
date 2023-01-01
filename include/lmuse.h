@@ -4,7 +4,7 @@ Copyright 1991-1998 Microsoft Corporation
 
 Module Name:
 
-    lmuse.c
+    lmuse.cc
 
 Abstract:
 

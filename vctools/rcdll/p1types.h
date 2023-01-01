@@ -1,6 +1,6 @@
 /*
 **  symbols basic types
-**  if the values are changed check : init'd arrays in globals.c
+**  if the values are changed check : init'd arrays in globals.cc
 */
 #define BTundef         0
 #define BTchar          1

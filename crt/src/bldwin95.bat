@@ -4,7 +4,7 @@ IF "%V6TOOLS%" == "" goto Usage1
 if exist nmktobat.exe goto built_exe
 echo =-=-=-=-= Building NMKtoBAT.EXE =-=-=-=-= 
 echo This program is used in the MSVC CRTL build process
-cl /W4 /WX /Za nmktobat.c
+cl /W4 /WX /Za nmktobat.cc
 if errorlevel 1 goto errlev
 :built_exe
 

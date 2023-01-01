@@ -1,5 +1,5 @@
 /*
-**  charmap.h : P0 specific, also included by charmap.c
+**  charmap.h : P0 specific, also included by charmap.cc
 **  it defines the mapping used to go from simple chars to these predefined
 **  values. this enables the compiler to use a compact switch stmt.
 **  they have been grouped in what is believed to be the most beneficial

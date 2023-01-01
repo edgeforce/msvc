@@ -39,7 +39,7 @@ cleanall: clean
 # Pre-compiled header default #1 used in most .C EDK sources.
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$(DIRPCH)\edk.obj: $(DIRPCHSRC)\edk.c
+$(DIRPCH)\edk.obj: $(DIRPCHSRC)\edk.cc
 !if "$(OUTERR)"=="YES"
     @echo $(CC) $(CL) $(PCHCR1) $(CFLAGS) $(DIRPCHSRC)\edk.c $(OSYM) $(ERRFILE)
 !endif
@@ -69,7 +69,7 @@ $(DIRPCH)\edkafx.obj: $(DIRPCHSRC)\edkafx.cpp
 # Pre-compiled header default #4 used in UNICODE .C EDK sources.
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$(DIRPCH)\edku.obj: $(DIRPCHSRC)\edku.c
+$(DIRPCH)\edku.obj: $(DIRPCHSRC)\edku.cc
 !if "$(OUTERR)"=="YES"
     @echo $(CC) $(CL) $(PCHCR4) $(CFLAGS) $(DIRPCHSRC)\edku.c $(OSYM) $(ERRFILE)
 !endif

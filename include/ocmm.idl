@@ -146,7 +146,7 @@ cpp_quote("")
 //
 // TIMER SERVICES
 //
-cpp_quote("EXTERN_C const GUID NAMEDTIMER_DRAW;")   // in guids.c
+cpp_quote("EXTERN_C const GUID NAMEDTIMER_DRAW;")   // in guids.cc
 cpp_quote("")
 
 interface ITimerService;
