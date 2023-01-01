@@ -1,4 +1,8 @@
-# <a name="readmevc_top">Visual C++ Readme</a>
+<table width="624" cellspacing="0" border="0"></table>
+
+<font size="2" face="Verdana"><script language="JSCRIPT">function checkExpand( ) { if ("" != event.srcElement.id) { var ch = event.srcElement.id + "Child"; var el = document.all[ch]; if (null != el) { el.style.display = "none" == el.style.display ? "" : "none"; if (el.style.display != "none") // el.scrollIntoView(true); event.returnValue=false; } } }</script>
+
+## <a name="readmevc_top">Visual C++ Readme</a>
 
 <sup>©</sup>1998 Microsoft Corporation. All rights reserved.
 
@@ -12,453 +16,453 @@ For other issues on the Help system of the Visual Studio suite of products, go t
 
 Contents <font size="2" face="Verdana,Arial,Helvetica" color="#000000">- Click any of the items below</font> to expand:
 
-# [Setup Issues](# "Click to collapse or expand")
+##### [Setup Issues](# "Click to collapse or expand")
 
 <div id="SetupChild">
 
-> [Protected-Mode CD-ROM Driver Required on Windows 95 for Visual C++ Installation](#Setup_3)
+> [Protected-Mode CD-ROM Driver Required on Windows 95 for Visual C++ Installation](ReadmeVC.htm#Setup_3)
 
-> [Use Knowledge Base Articles to Solve Setup and Operating Problems](#Setup_4)
+> [Use Knowledge Base Articles to Solve Setup and Operating Problems](ReadmeVC.htm#Setup_4)
 
-> [How to Report Visual C++ Bugs on the WWW](#Setup_5)
+> [How to Report Visual C++ Bugs on the WWW](ReadmeVC.htm#Setup_5)
 
-> [Viewing "ANSI Character Code Chart" in HTML Help Requires an English System](#Setup_6)
+> [Viewing "ANSI Character Code Chart" in HTML Help Requires an English System](ReadmeVC.htm#Setup_6)
 
-> [Resource Viewer and Compiler Not Installed in Some Custom Setup Configurations](#Setup_7)
+> [Resource Viewer and Compiler Not Installed in Some Custom Setup Configurations](ReadmeVC.htm#Setup_7)
 
-> [Avoiding Problems Associated with Installing New SDKs](#Setup_8)
+> [Avoiding Problems Associated with Installing New SDKs](ReadmeVC.htm#Setup_8)
 
 </div>
 
-# [Build Issues](# "Click to collapse or expand")
+##### [Build Issues](# "Click to collapse or expand")
 
 <div id="BuildingChild">
 
-> [Help File Names with European Characters Do Not Copy Correctly on Windows 95](#Build_5)
+> [Help File Names with European Characters Do Not Copy Correctly on Windows 95](ReadmeVC.htm#Build_5)
 
-> ["Update All Dependencies" Menu Item Removed](#Build_6)
+> ["Update All Dependencies" Menu Item Removed](ReadmeVC.htm#Build_6)
 
 </div>
 
-# [Documentation Issues](# "Click to collapse or expand")
+##### [Documentation Issues](# "Click to collapse or expand")
 
 <div id="DocumentationChild">
 
-> [New Help Viewer](#Doc_1.1)
+> [New Help Viewer](ReadmeVC.htm#Doc_1.1)
 
-> [Sample Code Sometimes Does Not Cut and Paste Properly](#Doc_1.2)
+> [Sample Code Sometimes Does Not Cut and Paste Properly](ReadmeVC.htm#Doc_1.2)
 
-> [CToolbar::SetButtonStyles Documentation Missing Information](#Doc_6)
+> [CToolbar::SetButtonStyles Documentation Missing Information](ReadmeVC.htm#Doc_6)
 
-> [Error in Topic "Enabling STRICT Type Checking"](#Doc_7)
+> [Error in Topic "Enabling STRICT Type Checking"](ReadmeVC.htm#Doc_7)
 
-> [Error in Topic "Modifying IntelliSense Options"](#Doc_8)
+> [Error in Topic "Modifying IntelliSense Options"](ReadmeVC.htm#Doc_8)
 
-> [Error in Topic "Create a Utility Project"](#Doc_8.1)
+> [Error in Topic "Create a Utility Project"](ReadmeVC.htm#Doc_8.1)
 
-> [Developing Context-Sensitive Help Using HTML Help](#Doc_9)
+> [Developing Context-Sensitive Help Using HTML Help](ReadmeVC.htm#Doc_9)
 
-> [Error in Topic "Receiving HTML Help Notification Messages in an MFC Application"](#Doc_11)
+> [Error in Topic "Receiving HTML Help Notification Messages in an MFC Application"](ReadmeVC.htm#Doc_11)
 
-> [Addendum to AutoClik Tutorial Topics](#Doc_12)
+> [Addendum to AutoClik Tutorial Topics](ReadmeVC.htm#Doc_12)
 
-> [Tree View Controls Not Documented](#Doc_13)
+> [Tree View Controls Not Documented](ReadmeVC.htm#Doc_13)
 
-> [References to MFC Version 4.22 in the Documentation](#Doc_15)
+> [References to MFC Version 4.22 in the Documentation](ReadmeVC.htm#Doc_15)
 
-> [wmemchr, wmemmove, wmemcpy, wmemset Not Available from C](#Doc_17)
+> [wmemchr, wmemmove, wmemcpy, wmemset Not Available from C](ReadmeVC.htm#Doc_17)
 
-> [Undocumented CTabCtrl Styles](#Doc_18)
+> [Undocumented CTabCtrl Styles](ReadmeVC.htm#Doc_18)
 
-> [CControlBar::GetDockingFrame Documentation Does Not State Return Value When Control Bar Is Floating](#Doc_19)
+> [CControlBar::GetDockingFrame Documentation Does Not State Return Value When Control Bar Is Floating](ReadmeVC.htm#Doc_19)
 
-> [Addendum to DECLARE_CLASSFACTORY_AUTO_THREAD Topic](#Doc_20)
+> [Addendum to DECLARE_CLASSFACTORY_AUTO_THREAD Topic](ReadmeVC.htm#Doc_20)
 
-> [Error in "CComModule::Init" Topic](#Doc_21)
+> [Error in "CComModule::Init" Topic](ReadmeVC.htm#Doc_21)
 
-> [Errors in "Implementing a Simple Consumer" Topic](#Doc_23)
+> [Errors in "Implementing a Simple Consumer" Topic](ReadmeVC.htm#Doc_23)
 
-> [Addendum to CProgressCtrl Topic](#Doc_24)
+> [Addendum to CProgressCtrl Topic](ReadmeVC.htm#Doc_24)
 
-> [Error in "Implementing a Window with CWindowImpl" Topic](#Doc_25)
+> [Error in "Implementing a Window with CWindowImpl" Topic](ReadmeVC.htm#Doc_25)
 
-> [Errors in CDC::Escape Topic](#Doc_26)
+> [Errors in CDC::Escape Topic](ReadmeVC.htm#Doc_26)
 
-> [ATLCOLUMNINFO Structure Not Documented](#Doc_27)
+> [ATLCOLUMNINFO Structure Not Documented](ReadmeVC.htm#Doc_27)
 
-> [ATLTRACE and AtlTrace Documentation Incorrectly Refer to Dump Device](#Doc_28)
+> [ATLTRACE and AtlTrace Documentation Incorrectly Refer to Dump Device](ReadmeVC.htm#Doc_28)
 
-> [Errors in "How Do I Reference a Property in My Provider?" Topic](#Doc_29)
+> [Errors in "How Do I Reference a Property in My Provider?" Topic](ReadmeVC.htm#Doc_29)
 
-> [Undocumented Function AfxDebugBreak](#Doc_31)
+> [Undocumented Function AfxDebugBreak](ReadmeVC.htm#Doc_31)
 
-> [Undocumented ATL Consumer Method CDataSource::OpenWithServiceComponents](#Doc_32)
+> [Undocumented ATL Consumer Method CDataSource::OpenWithServiceComponents](ReadmeVC.htm#Doc_32)
 
-> [Errors in AddProject Method Topic](#Doc_33)
+> [Errors in AddProject Method Topic](ReadmeVC.htm#Doc_33)
 
-> [Addendum to Documentation for Microsoft UpDown Control](#Doc_34)
+> [Addendum to Documentation for Microsoft UpDown Control](ReadmeVC.htm#Doc_34)
 
-> [Errors in "IDispatchImpl" and "IProvideClassInfo2Impl" Topics](#Doc_30)
+> [Errors in "IDispatchImpl" and "IProvideClassInfo2Impl" Topics](ReadmeVC.htm#Doc_30)
 
-> [CFileDialog Undocumented Functions](#Doc_10)
+> [CFileDialog Undocumented Functions](ReadmeVC.htm#Doc_10)
 
 </div>
 
-# [ActiveX Control Issues](# "Click to collapse or expand")
+##### [ActiveX Control Issues](# "Click to collapse or expand")
 
 <div id="ActiveXChild">
 
-> [New ActiveX Control Test Container Cannot Open Saved Sessions Files Created by Previous Version](#ActiveX_Control_Issues_1)
+> [New ActiveX Control Test Container Cannot Open Saved Sessions Files Created by Previous Version](ReadmeVC.htm#ActiveX_Control_Issues_1)
 
-> [Problems Accessing ActiveX Control Test Container Help](#ActiveX_Control_Issues_2)
+> [Problems Accessing ActiveX Control Test Container Help](ReadmeVC.htm#ActiveX_Control_Issues_2)
 
-> [Some ActiveX Controls Created with Visual Basic Generate Error in Test Container on Resize](#ActiveX_Control_Issues_4)
+> [Some ActiveX Controls Created with Visual Basic Generate Error in Test Container on Resize](ReadmeVC.htm#ActiveX_Control_Issues_4)
 
-> [Oracle Joins and MSRDC20.ocx (Remote Data Control V2)](#ActiveX_Control_Issues_5)
+> [Oracle Joins and MSRDC20.ocx (Remote Data Control V2)](ReadmeVC.htm#ActiveX_Control_Issues_5)
 
-> [Current, Localized ActiveX Redistributable Components](#ActiveX_Control_Issues_6)
+> [Current, Localized ActiveX Redistributable Components](ReadmeVC.htm#ActiveX_Control_Issues_6)
 
 </div>
 
-# [Language Issues](# "Click to collapse or expand")
+##### [Language Issues](# "Click to collapse or expand")
 
 <div id="LanguageChild">
 
-> [Size Mismatch for Type bool in Visual C++ 4.2 Programs Built with Visual C++ 6.0](#Language_Issues_3)
+> [Size Mismatch for Type bool in Visual C++ 4.2 Programs Built with Visual C++ 6.0](ReadmeVC.htm#Language_Issues_3)
 
-> [Support for Member Templates](#Language_Issues_4)
+> [Support for Member Templates](ReadmeVC.htm#Language_Issues_4)
 
 </div>
 
-# [Libraries Issues](# "Click to collapse or expand")
+##### [Libraries Issues](# "Click to collapse or expand")
 
 <div id="LibrariesChild">
 
-> [Using MFC with New SDK Releases](#MFC_1)
+> [Using MFC with New SDK Releases](ReadmeVC.htm#MFC_1)
 
-> [Incomplete Documentation for CWnd::RepositionBars](#MFC_3)
+> [Incomplete Documentation for CWnd::RepositionBars](ReadmeVC.htm#MFC_3)
 
-> [Incorrect Example Code in the CArchive::MapObject Member Function](#MFC_5)
+> [Incorrect Example Code in the CArchive::MapObject Member Function](ReadmeVC.htm#MFC_5)
 
-> [Some ATL Object Stock Properties Must Be Initialized Before Use in Visual Basic 5.0 Containers](#MFC_5.1)
+> [Some ATL Object Stock Properties Must Be Initialized Before Use in Visual Basic 5.0 Containers](ReadmeVC.htm#MFC_5.1)
 
-> [ATL Font and Picture Properties May Require Changes to the IDL File](#MFC_5.3)
+> [ATL Font and Picture Properties May Require Changes to the IDL File](ReadmeVC.htm#MFC_5.3)
 
-> [Documentation Missing for MFC Message Map Macro ON_WM_SETTINGCHANGE](#MFC_6)
+> [Documentation Missing for MFC Message Map Macro ON_WM_SETTINGCHANGE](ReadmeVC.htm#MFC_6)
 
-> [TN024 Doesn't Identify All Custom MFC Resource Types](#MFC_7)
+> [TN024 Doesn't Identify All Custom MFC Resource Types](ReadmeVC.htm#MFC_7)
 
-> [MFC DAO Classes Will Work with Either DAO 3.0 or DAO 3.5](#MFC_8)
+> [MFC DAO Classes Will Work with Either DAO 3.0 or DAO 3.5](ReadmeVC.htm#MFC_8)
 
-> [Using DAO with a Secure Database](#MFC_9)
+> [Using DAO with a Secure Database](ReadmeVC.htm#MFC_9)
 
-> [MFC Loads Wrong Resource in Extension .dll](#MFC_13)
+> [MFC Loads Wrong Resource in Extension .dll](ReadmeVC.htm#MFC_13)
 
-> [Call _findclose After Using _findfirst or _findnext](#MFC_14)
+> [Call _findclose After Using _findfirst or _findnext](ReadmeVC.htm#MFC_14)
 
-> [Format Specification Not Supported in COleDateTime and COleDateTimeSpan Classes](#MFC_20)
+> [Format Specification Not Supported in COleDateTime and COleDateTimeSpan Classes](ReadmeVC.htm#MFC_20)
 
-> [IsBadHugeReadPtr, IsBadHugeWritePtr, IsBadStringPtr, IsBadWritePtr, and Access Violations](#MFC_21)
+> [IsBadHugeReadPtr, IsBadHugeWritePtr, IsBadStringPtr, IsBadWritePtr, and Access Violations](ReadmeVC.htm#MFC_21)
 
-> [ServerSupportFunction No Longer Supports SF_REQ_GET_CONNID](#MFC_23)
+> [ServerSupportFunction No Longer Supports SF_REQ_GET_CONNID](ReadmeVC.htm#MFC_23)
 
-[](#MFC_23)
+[](ReadmeVC.htm#MFC_23)
 
-> [](#MFC_23)[Hot Track Property for Spin Control Not Implemented](#MFC_24)
+> [](ReadmeVC.htm#MFC_23)[Hot Track Property for Spin Control Not Implemented](ReadmeVC.htm#MFC_24)
 
-[](#MFC_24)
+[](ReadmeVC.htm#MFC_24)
 
-> [](#MFC_24)[COleDateTime::GetStatus Returns Valid for Default Constructor](#MFC_25)
+> [](ReadmeVC.htm#MFC_24)[COleDateTime::GetStatus Returns Valid for Default Constructor](ReadmeVC.htm#MFC_25)
 
-[](#MFC_25)
+[](ReadmeVC.htm#MFC_25)
 
-> [](#MFC_25)[Opening a DLL as "Resources" Might Require Installation of .nls Files](#MFC_26)
+> [](ReadmeVC.htm#MFC_25)[Opening a DLL as "Resources" Might Require Installation of .nls Files](ReadmeVC.htm#MFC_26)
 
-[](#MFC_26)
+[](ReadmeVC.htm#MFC_26)
 
-> [](#MFC_26)[Multiple Language Resource Files](#MFC_27)
+> [](ReadmeVC.htm#MFC_26)[Multiple Language Resource Files](ReadmeVC.htm#MFC_27)
 
-[](#MFC_27)
+[](ReadmeVC.htm#MFC_27)
 
-> [](#MFC_27)[AfxDumpStack API Will Not Work until NT 5.0 Beta 2](#MFC_28)
+> [](ReadmeVC.htm#MFC_27)[AfxDumpStack API Will Not Work until NT 5.0 Beta 2](ReadmeVC.htm#MFC_28)
 
-[](#MFC_28)
+[](ReadmeVC.htm#MFC_28)
 
-> [](#MFC_28)[Changes to IObjectSafetyImpl](#MFC_29)
+> [](ReadmeVC.htm#MFC_28)[Changes to IObjectSafetyImpl](ReadmeVC.htm#MFC_29)
 
-> [Some Concrete MFC Classes Have No vtable When Built, Causing GPF on Deletion](#MFC_30)
+> [Some Concrete MFC Classes Have No vtable When Built, Causing GPF on Deletion](ReadmeVC.htm#MFC_30)
 
-> [ATLCOLUMNINFO Structure Not Documented](#Doc_27)
+> [ATLCOLUMNINFO Structure Not Documented](ReadmeVC.htm#Doc_27)
 
-> [Errors in "IDispatchImpl" and "IProvideClassInfo2Impl" Topics](#Doc_30)
+> [Errors in "IDispatchImpl" and "IProvideClassInfo2Impl" Topics](ReadmeVC.htm#Doc_30)
 
-> [CFileDialog Undocumented Functions](#Doc_10)
+> [CFileDialog Undocumented Functions](ReadmeVC.htm#Doc_10)
 
 </div>
 
-# [Wizard and Other User-Interface Issues](# "Click to collapse or expand")
+##### [Wizard and Other User-Interface Issues](# "Click to collapse or expand")
 
 <div id="WizardChild">
 
-> [Using the MTS Option in ATL COM AppWizard](#Wizards_2)
+> [Using the MTS Option in ATL COM AppWizard](ReadmeVC.htm#Wizards_2)
 
-> [Save .idl File Before Invoking ATL Add Method or ATL Add Property](#Wizards_2.15)
+> [Save .idl File Before Invoking ATL Add Method or ATL Add Property](ReadmeVC.htm#Wizards_2.15)
 
-> [Databinding Dialog Controls in an OLE DB Application](#Wizards_2.16)
+> [Databinding Dialog Controls in an OLE DB Application](ReadmeVC.htm#Wizards_2.16)
 
-> [MFC AppWizard Generated Code Needs Editing for Tables and Providers with Spaces in Names](#Wizards_2.18)
+> [MFC AppWizard Generated Code Needs Editing for Tables and Providers with Spaces in Names](ReadmeVC.htm#Wizards_2.18)
 
-> [Two New Template Variables Available to Custom AppWizards](#Wizards_6)
+> [Two New Template Variables Available to Custom AppWizards](ReadmeVC.htm#Wizards_6)
 
-> [Problems with ClassWizard Generated Wrapper Classes for Visual Basic 5.0 ActiveX Servers](#Wizards_7)
+> [Problems with ClassWizard Generated Wrapper Classes for Visual Basic 5.0 ActiveX Servers](ReadmeVC.htm#Wizards_7)
 
-> [ATL Controls in Visual Basic 5.0 Containers](#Wizards_8)
+> [ATL Controls in Visual Basic 5.0 Containers](ReadmeVC.htm#Wizards_8)
 
-> [ClassView's Add Method and Add Property Dialog Boxes Sometimes Allow Illegal Return Types for Custom Interfaces](#Wizards_10)
+> [ClassView's Add Method and Add Property Dialog Boxes Sometimes Allow Illegal Return Types for Custom Interfaces](ReadmeVC.htm#Wizards_10)
 
-> [MFC Header stdafx.h May Not Have All Necessary #include's from a Visual Modeler Code Generation](#Wizards_11)
+> [MFC Header stdafx.h May Not Have All Necessary #include's from a Visual Modeler Code Generation](ReadmeVC.htm#Wizards_11)
 
-> [IntelliSense Does Not Display Class Members for Inline Member Functions](#Wizards_13)
+> [IntelliSense Does Not Display Class Members for Inline Member Functions](ReadmeVC.htm#Wizards_13)
 
-> [IntelliSense Might Present Outdated Information with Operating Systems That Ship After Visual C++ 6.0](#Wizards_14)
+> [IntelliSense Might Present Outdated Information with Operating Systems That Ship After Visual C++ 6.0](ReadmeVC.htm#Wizards_14)
 
-> [IntelliSense Limitations](#Wizards_15)
+> [IntelliSense Limitations](ReadmeVC.htm#Wizards_15)
 
-> [ClassView's Implement Connection Point: Problem with DIIDs in the Connection Point Map](#Wizards_16)
+> [ClassView's Implement Connection Point: Problem with DIIDs in the Connection Point Map](ReadmeVC.htm#Wizards_16)
 
-> [Help for All Tab in ActiveX Controls Properties Sheet Not Available](#Wizards_17)
+> [Help for All Tab in ActiveX Controls Properties Sheet Not Available](ReadmeVC.htm#Wizards_17)
 
-> [Notes for MMC Snapin Object in ATL Object Wizard](#Wizards_18)
+> [Notes for MMC Snapin Object in ATL Object Wizard](ReadmeVC.htm#Wizards_18)
 
-> [ATL Control's HWND Stock Property Causes Error Dialog in VB](#Wizards_19)
+> [ATL Control's HWND Stock Property Causes Error Dialog in VB](ReadmeVC.htm#Wizards_19)
 
-> [Program Does Not Compile When You Insert a New ATL Object into an MFC Database Application Using OLE DB Datasource](#Wizards_20)
+> [Program Does Not Compile When You Insert a New ATL Object into an MFC Database Application Using OLE DB Datasource](ReadmeVC.htm#Wizards_20)
 
-> [Warning on ATL Object Wizard's "Free Threaded Marshaler" Option](#Wizards_21)
+> [Warning on ATL Object Wizard's "Free Threaded Marshaler" Option](ReadmeVC.htm#Wizards_21)
 
-> [Project Names with Upper-ASCII or DBCS Characters Cause Build Errors in Custom AppWizard-Generated Projects](#Wizards_22)
+> [Project Names with Upper-ASCII or DBCS Characters Cause Build Errors in Custom AppWizard-Generated Projects](ReadmeVC.htm#Wizards_22)
 
-> [Assertion in AppWizard-Generated MDI Active Document Container](#Wizards_23)
+> [Assertion in AppWizard-Generated MDI Active Document Container](ReadmeVC.htm#Wizards_23)
 
 </div>
 
-# [Microsoft Transaction Server Issues](# "Click to collapse or expand")
+##### [Microsoft Transaction Server Issues](# "Click to collapse or expand")
 
 <div id="MTSChild">
 
-> [Read Microsoft Transaction Server (MTS) Readme](#MTS_1)
+> [Read Microsoft Transaction Server (MTS) Readme](ReadmeVC.htm#MTS_1)
 
-> [MTS Objects Created with the ATL AppWizard Require Manual Running MTXRereg.Exe](#MTS_2)
+> [MTS Objects Created with the ATL AppWizard Require Manual Running MTXRereg.Exe](ReadmeVC.htm#MTS_2)
 
-> [Disable Transaction Time Out While Debugging](#MTS_3)
+> [Disable Transaction Time Out While Debugging](ReadmeVC.htm#MTS_3)
 
-> [No Proxy/Stubs with Dual Interfaces](#MTS_4)
+> [No Proxy/Stubs with Dual Interfaces](ReadmeVC.htm#MTS_4)
 
-> [Older Versions of MSDTC May Cause MTS Transaction Failures](#MTS_5)
+> [Older Versions of MSDTC May Cause MTS Transaction Failures](ReadmeVC.htm#MTS_5)
 
 </div>
 
-# [Microsoft Visual Database Tools Issues](# "Click to collapse or expand")
+##### [Microsoft Visual Database Tools Issues](# "Click to collapse or expand")
 
 <div id="DataToolsChild">
 
-> [DataView "Create New Extended Stored Procedure" Dialog Box Truncates Path of DLL Name](#Data_Tools_2)
+> [DataView "Create New Extended Stored Procedure" Dialog Box Truncates Path of DLL Name](ReadmeVC.htm#Data_Tools_2)
 
-> [Visual C++ 6.0 Professional Edition Includes Read-Only Microsoft Database Tools](#Data_Tools_3)
+> [Visual C++ 6.0 Professional Edition Includes Read-Only Microsoft Database Tools](ReadmeVC.htm#Data_Tools_3)
 
-> [Jet Versions Supported by Visual C++](#Data_Tools_4)
+> [Jet Versions Supported by Visual C++](ReadmeVC.htm#Data_Tools_4)
 
 </div>
 
-# [Sample Program Issues](# "Click to collapse or expand")
+##### [Sample Program Issues](# "Click to collapse or expand")
 
 <div id="SamplesChild">
 
-> [Ignore SFL Directory in Samples](#Sample_Program_Issues_3)
+> [Ignore SFL Directory in Samples](ReadmeVC.htm#Sample_Program_Issues_3)
 
-> [MINIMAL Sample Needs Modification to Build](#Sample_Program_Issues_16)
+> [MINIMAL Sample Needs Modification to Build](ReadmeVC.htm#Sample_Program_Issues_16)
 
-> [COMMAP: Remove Mktyplib Compat Mode for MIDL](#Sample_Program_Issues_18)
+> [COMMAP: Remove Mktyplib Compat Mode for MIDL](ReadmeVC.htm#Sample_Program_Issues_18)
 
-> [AtlTangram: Needs Additional Files in Include Path](#Sample_Program_Issues_20)
+> [AtlTangram: Needs Additional Files in Include Path](ReadmeVC.htm#Sample_Program_Issues_20)
 
-> [Some Samples Have Source Safe Linkage](#Sample_Program_Issues_21)
+> [Some Samples Have Source Safe Linkage](ReadmeVC.htm#Sample_Program_Issues_21)
 
-> [DBVList](#Sample_Program_Issues_22)
+> [DBVList](ReadmeVC.htm#Sample_Program_Issues_22)
 
-> [ComplexDB](#Sample_Program_Issues_24)
+> [ComplexDB](ReadmeVC.htm#Sample_Program_Issues_24)
 
-> [ATLMTO Sample Needs to Have ATL_MIN_CRT Turned Off](#Sample_Program_Issues_25)
+> [ATLMTO Sample Needs to Have ATL_MIN_CRT Turned Off](ReadmeVC.htm#Sample_Program_Issues_25)
 
-> [Addendum to ComplexDB Sample Abstract](#Sample_Program_Issues_26)
+> [Addendum to ComplexDB Sample Abstract](ReadmeVC.htm#Sample_Program_Issues_26)
 
-> [ACCSPICT Sample Command Line Error](#Sample_Program_Issues_27)
+> [ACCSPICT Sample Command Line Error](ReadmeVC.htm#Sample_Program_Issues_27)
 
-> [CIRC and STOCKTICKERATL Samples Get MIDL Error](#Sample_Program_Issues_28)
+> [CIRC and STOCKTICKERATL Samples Get MIDL Error](ReadmeVC.htm#Sample_Program_Issues_28)
 
-> [CIRCPROPS Sample Cannot Open circ.h Because of CIRC Problem](#Sample_Program_Issues_29)
+> [CIRCPROPS Sample Cannot Open circ.h Because of CIRC Problem](ReadmeVC.htm#Sample_Program_Issues_29)
 
-> [AUTODRIVE Gets Command Line Error](#Sample_Program_Issues_30)
+> [AUTODRIVE Gets Command Line Error](ReadmeVC.htm#Sample_Program_Issues_30)
 
-> [Ignore SourceSafe Dialog When Loading ActiveDoc and Polygon ATL Samples](#Sample_Program_Issues_31)
+> [Ignore SourceSafe Dialog When Loading ActiveDoc and Polygon ATL Samples](ReadmeVC.htm#Sample_Program_Issues_31)
 
-> [Rebuild All on SDK's INOLE2 Samples Will Give Linker Error](#Sample_Program_Issues_32)
+> [Rebuild All on SDK's INOLE2 Samples Will Give Linker Error](ReadmeVC.htm#Sample_Program_Issues_32)
 
-> [Workspace Files for the VCCOM COMMAP Sample Have Mismatched Targets](#Sample_Program_Issues_33)
+> [Workspace Files for the VCCOM COMMAP Sample Have Mismatched Targets](ReadmeVC.htm#Sample_Program_Issues_33)
 
-> [Known Problems in MYPROV Sample](#Sample_Program_Issues_34)
+> [Known Problems in MYPROV Sample](ReadmeVC.htm#Sample_Program_Issues_34)
 
-> [ActiveDoc ATL Sample Defaults to Unicode](#Sample_Program_Issues_35)
+> [ActiveDoc ATL Sample Defaults to Unicode](ReadmeVC.htm#Sample_Program_Issues_35)
 
 </div>
 
-# [OLE DB Issues](# "Click to collapse or expand")
+##### [OLE DB Issues](# "Click to collapse or expand")
 
 <div id="OLEDBChild">
 
-> [OLE DB Consumer Template Samples](#OLE_DB_2.1)
+> [OLE DB Consumer Template Samples](ReadmeVC.htm#OLE_DB_2.1)
 
-> [OLE DB Provider Templates Sample](#OLE_DB_2.2)
+> [OLE DB Provider Templates Sample](ReadmeVC.htm#OLE_DB_2.2)
 
-> [Remove UUID2.lib from Link Line of OLE DB SDK TableCopy Sample](#OLE_DB_4)
+> [Remove UUID2.lib from Link Line of OLE DB SDK TableCopy Sample](ReadmeVC.htm#OLE_DB_4)
 
-> [TableCopy Faults with Oracle Data Connections](#OLE_DB_5)
+> [TableCopy Faults with Oracle Data Connections](ReadmeVC.htm#OLE_DB_5)
 
-> [Configuring OLE_DB_xx Data Sources in the ODBC Administrator](#OLE_DB_6)
+> [Configuring OLE_DB_xx Data Sources in the ODBC Administrator](ReadmeVC.htm#OLE_DB_6)
 
-> [Binding Multiple Complex Databound Controls to the Same ADO Data Source Will Crash Application on Exit](#OLE_DB_9)
+> [Binding Multiple Complex Databound Controls to the Same ADO Data Source Will Crash Application on Exit](ReadmeVC.htm#OLE_DB_9)
 
-> [Some Controls Do Not Draw Correctly in the Resource Editor](#OLE_DB_10)
+> [Some Controls Do Not Draw Correctly in the Resource Editor](ReadmeVC.htm#OLE_DB_10)
 
-> [Binding ADODC to Controls then Editing Record Source Will Draw Spurious Errors](#OLE_DB_11)
+> [Binding ADODC to Controls then Editing Record Source Will Draw Spurious Errors](ReadmeVC.htm#OLE_DB_11)
 
-> [Hierarchical Flex Grid Does Not Refresh on Second Query](#OLE_DB_12)
+> [Hierarchical Flex Grid Does Not Refresh on Second Query](ReadmeVC.htm#OLE_DB_12)
 
-> [Porting Providers Created with Visual C++ Technology Preview Release to Version 6.0](#OLE_DB_14.1)
+> [Porting Providers Created with Visual C++ Technology Preview Release to Version 6.0](ReadmeVC.htm#OLE_DB_14.1)
 
-> [Porting Consumers Created with Visual C++ Technology Preview Release to Version 6.0](#OLE_DB_14.2)
+> [Porting Consumers Created with Visual C++ Technology Preview Release to Version 6.0](ReadmeVC.htm#OLE_DB_14.2)
 
-> [Cannot Use ADO Databound Controls with Remote Data Source Control (MSRDC), or RDO Databound Controls with ADO Data Source Control (ADODC)](#OLE_DB_15)
+> [Cannot Use ADO Databound Controls with Remote Data Source Control (MSRDC), or RDO Databound Controls with ADO Data Source Control (ADODC)](ReadmeVC.htm#OLE_DB_15)
 
-> [Known OLE DB Provider Problems with Visual C++ Wizards](#OLE_DB_16)
+> [Known OLE DB Provider Problems with Visual C++ Wizards](ReadmeVC.htm#OLE_DB_16)
 
-> [Notes on Running OLE DB Provider Conformance Tests](#OLE_DB_17)
+> [Notes on Running OLE DB Provider Conformance Tests](ReadmeVC.htm#OLE_DB_17)
 
-> [Simple Bound ADO Databound Controls Must Be Associated with a Column](#OLE_DB_18)
+> [Simple Bound ADO Databound Controls Must Be Associated with a Column](ReadmeVC.htm#OLE_DB_18)
 
-> [Some OLE DB Providers Do Not Support Table Names with Spaces](#OLE_DB_19)
+> [Some OLE DB Providers Do Not Support Table Names with Spaces](ReadmeVC.htm#OLE_DB_19)
 
-> [Databinding Dialog Controls in an OLE DB Application](#Wizards_2.16)
+> [Databinding Dialog Controls in an OLE DB Application](ReadmeVC.htm#Wizards_2.16)
 
-> [MFC AppWizard Generated Code Needs Editing for Tables and Providers with Spaces in Names](#Wizards_2.18)
+> [MFC AppWizard Generated Code Needs Editing for Tables and Providers with Spaces in Names](ReadmeVC.htm#Wizards_2.18)
 
 </div>
 
-# [SQL and SQL Debugging Issues](# "Click to collapse or expand")
+##### [SQL and SQL Debugging Issues](# "Click to collapse or expand")
 
 <div id="SQLChild">
 
-> [DataView and IDE Crashes When Opening Table Against DSN Using Oracle's ODBC Driver](#SQL_1)
+> [DataView and IDE Crashes When Opening Table Against DSN Using Oracle's ODBC Driver](ReadmeVC.htm#SQL_1)
 
-> [Previous Versions of Visual C++ Cannot Read SQL Diagrams Opened by Later Versions](#SQL_2)
+> [Previous Versions of Visual C++ Cannot Read SQL Diagrams Opened by Later Versions](ReadmeVC.htm#SQL_2)
 
-> [Enabling SQL Debugging](#SQL_3)
+> [Enabling SQL Debugging](ReadmeVC.htm#SQL_3)
 
-> [Server-Side Setup Must Check SQL Server Account](#SQL_4)
+> [Server-Side Setup Must Check SQL Server Account](ReadmeVC.htm#SQL_4)
 
-> [SQL Server OLE DB Provider Requires New instcat.sql](#SQL_5)
+> [SQL Server OLE DB Provider Requires New instcat.sql](ReadmeVC.htm#SQL_5)
 
-> [MultiRead Provider Sample Needs Modification to Run](#SQL_6)
+> [MultiRead Provider Sample Needs Modification to Run](ReadmeVC.htm#SQL_6)
 
-> [SQL Server OLE DB Provider Requires Indexes to be Set on Tables for IRowsetScroll](#SQL_7)
+> [SQL Server OLE DB Provider Requires Indexes to be Set on Tables for IRowsetScroll](ReadmeVC.htm#SQL_7)
 
 </div>
 
-# [Compiler, Linker, Debugger, and MIDL Compiler Issues](# "Click to collapse or expand")
+##### [Compiler, Linker, Debugger, and MIDL Compiler Issues](# "Click to collapse or expand")
 
 <div id="CompilerChild">
 
-> [New Debugger Features](#Compiler_30)
+> [New Debugger Features](ReadmeVC.htm#Compiler_30)
 
-> [Some Linker Options Disable Edit and Continue](#Compiler_37)
+> [Some Linker Options Disable Edit and Continue](ReadmeVC.htm#Compiler_37)
 
-> [Use New -opt:win98 Linker Switch If Targeting Windows 98 Platforms](#Compiler_38)
+> [Use New -opt:win98 Linker Switch If Targeting Windows 98 Platforms](ReadmeVC.htm#Compiler_38)
 
-> [Problem with Debugging COM/ActiveX Controls Through Internet Explorer 4.0 or Later](#Compiler_39)
+> [Problem with Debugging COM/ActiveX Controls Through Internet Explorer 4.0 or Later](ReadmeVC.htm#Compiler_39)
 
-> [STRICT Type Checking Is Enabled by Default](#Compiler_40)
+> [STRICT Type Checking Is Enabled by Default](ReadmeVC.htm#Compiler_40)
 
-> [Remote Debugging: Debug Monitor Password Field in MSVCMON.exe Disabled](#Compiler_31)
+> [Remote Debugging: Debug Monitor Password Field in MSVCMON.exe Disabled](ReadmeVC.htm#Compiler_31)
 
-> [_com_error Constructor Changed](#Compiler_34)
+> [_com_error Constructor Changed](ReadmeVC.htm#Compiler_34)
 
-> [Breakpoints Set in Some Circumstances Might Not Work](#Compiler_32)
+> [Breakpoints Set in Some Circumstances Might Not Work](ReadmeVC.htm#Compiler_32)
 
-> [Duplicate GUIDs Cause Build Failures Using uuid.lib](#Compiler_35)
+> [Duplicate GUIDs Cause Build Failures Using uuid.lib](ReadmeVC.htm#Compiler_35)
 
-> [Using Windbg with Visual C++ 6.0 Projects](#Compiler_1)
+> [Using Windbg with Visual C++ 6.0 Projects](ReadmeVC.htm#Compiler_1)
 
-> [_ATL_MIN_CRT and Link Error "unresolved external symbol _main"](#Compiler_2)
+> [_ATL_MIN_CRT and Link Error "unresolved external symbol _main"](ReadmeVC.htm#Compiler_2)
 
-> [DCOM95 Available for Distributed Applications](#Compiler_3)
+> [DCOM95 Available for Distributed Applications](ReadmeVC.htm#Compiler_3)
 
-> [Debugging Windows API Functions with NT Symbols Loaded](#Compiler_11)
+> [Debugging Windows API Functions with NT Symbols Loaded](ReadmeVC.htm#Compiler_11)
 
-> [If Screen Flashes During Build or the Wrong Code Page Is Used When Debugging a Console Application](#Compiler_12)
+> [If Screen Flashes During Build or the Wrong Code Page Is Used When Debugging a Console Application](ReadmeVC.htm#Compiler_12)
 
-> [MIDL2020: error generating type library: save all changes failed](#Compiler_15)
+> [MIDL2020: error generating type library: save all changes failed](ReadmeVC.htm#Compiler_15)
 
-> [Error Command Line Warning MIDL1009:unknown argument ignored](#Compiler_17)
+> [Error Command Line Warning MIDL1009:unknown argument ignored](ReadmeVC.htm#Compiler_17)
 
-> [/Zn Option Obsolete](#Compiler_41)
+> [/Zn Option Obsolete](ReadmeVC.htm#Compiler_41)
 
-> [Delay Loading DLLs or Loading DLLs "on Demand"](#Compiler_42)
+> [Delay Loading DLLs or Loading DLLs "on Demand"](ReadmeVC.htm#Compiler_42)
 
-> [NT System Symbol Setup Installs Debugging Files Only for the Language of Your Product](#Compiler_43)
+> [NT System Symbol Setup Installs Debugging Files Only for the Language of Your Product](ReadmeVC.htm#Compiler_43)
 
-> [New Dumpbin Option /LOADCONFIG](#Compiler_44)
+> [New Dumpbin Option /LOADCONFIG](ReadmeVC.htm#Compiler_44)
 
-> [New Compiler Switch /QIfist](#Compiler_45)
+> [New Compiler Switch /QIfist](ReadmeVC.htm#Compiler_45)
 
-> [Cannot Debug Fibers on Windows 98](#Compiler_46)
+> [Cannot Debug Fibers on Windows 98](ReadmeVC.htm#Compiler_46)
 
-> [#pragma data_seg Affects Initialized Data Only](#Compiler_47)
+> [#pragma data_seg Affects Initialized Data Only](ReadmeVC.htm#Compiler_47)
 
-> [Setting Breakpoints and Using Set Next Statement in Edited Code](#Compiler_48)
+> [Setting Breakpoints and Using Set Next Statement in Edited Code](ReadmeVC.htm#Compiler_48)
 
-> [Using the /GX Option (Synchronous Exception Handling) with Command-Line Tools](#Compiler_49)
+> [Using the /GX Option (Synchronous Exception Handling) with Command-Line Tools](ReadmeVC.htm#Compiler_49)
 
-> [No F1 Help on TCP/IP Network Settings Dialog Box](#Compiler_50)
+> [No F1 Help on TCP/IP Network Settings Dialog Box](ReadmeVC.htm#Compiler_50)
 
-> [Visual C++ 5.0 Can Read Version 6.0 Projects, but Behavior Is Undefined](#Compiler_51)
+> [Visual C++ 5.0 Can Read Version 6.0 Projects, but Behavior Is Undefined](ReadmeVC.htm#Compiler_51)
 
-> [Windows NT Symbols Setup Gives Erroneous Message](#Compiler_52)
+> [Windows NT Symbols Setup Gives Erroneous Message](ReadmeVC.htm#Compiler_52)
 
-> [AfxDumpStack Does Not Dump Readable Symbols from an MFC Application](#Compiler_53)
+> [AfxDumpStack Does Not Dump Readable Symbols from an MFC Application](ReadmeVC.htm#Compiler_53)
 
-> [Browsing Symbol Information Might Cause Access Violation in Projects where excel8.olb Has Been #imported](#Compiler_54)
+> [Browsing Symbol Information Might Cause Access Violation in Projects where excel8.olb Has Been #imported](ReadmeVC.htm#Compiler_54)
 
 </div>
 
-# [Visual SourceSafe Issues](# "Click to collapse or expand")
+##### [Visual SourceSafe Issues](# "Click to collapse or expand")
 
 <div id="VSSChild">
 
-> [Converting a Visual C++ 4.x Project Directly from Source Control](#VSS_1)
+> [Converting a Visual C++ 4.x Project Directly from Source Control](ReadmeVC.htm#VSS_1)
 
-> [Using Visual SourceSafe 5.0 with Keyword Expansion Requires Visual Studio 97 Service Pack 1](#VSS_2)
+> [Using Visual SourceSafe 5.0 with Keyword Expansion Requires Visual Studio 97 Service Pack 1](ReadmeVC.htm#VSS_2)
 
 </div>
 
-# [Visual Component Manager Issues](# "Click to collapse or expand")
+##### [Visual Component Manager Issues](# "Click to collapse or expand")
 
 <div id="VCMChild">
 
-> ["Related Files Tab (Component Properties Dialog Box)" Topic Incorrect](#RelatedFilesTab)
+> ["Related Files Tab (Component Properties Dialog Box)" Topic Incorrect](ReadmeVC.htm#RelatedFilesTab)
 
-> [Removing Repository 1.0 Registry Keys](#RemovingRepository10RegistryKeys)
+> [Removing Repository 1.0 Registry Keys](ReadmeVC.htm#RemovingRepository10RegistryKeys)
 
-> [Adding Repository Tables to an Existing .mdb File](#AddingrepositorytablestoanexistingMDBfile)
+> [Adding Repository Tables to an Existing .mdb File](ReadmeVC.htm#AddingrepositorytablestoanexistingMDBfile)
 
 </div>
 
@@ -528,7 +532,7 @@ Line breaks and formatting information may not copy correctly when you copy and 
 
 #### <a name="Doc_7"></a>Error in Topic "Enabling STRICT Type Checking"
 
-The topic "Enabling STRICT Type Checking" in the _Visual C++ Programmer's Guide_ incorrectly states that STRICT type checking is not defined by default, and that you must explicitly enable it. STRICT type checking is enabled by default as described in [this item](#Compiler_40).
+The topic "Enabling STRICT Type Checking" in the _Visual C++ Programmer's Guide_ incorrectly states that STRICT type checking is not defined by default, and that you must explicitly enable it. STRICT type checking is enabled by default as described in [this item](ReadmeVC.htm#Compiler_40).
 
 #### <a name="Doc_8"></a>Error in Topic "Modifying IntelliSense Options"
 
@@ -542,7 +546,7 @@ In the topic "Create a Utility Project" in the _Visual C++ Programmer's Guide_, 
 
 If you are developing context-sensitive help for your programs and want to use HTML Help rather than WinHelp, read "Help Topics (HTML Help): Context-Sensitive Help for Your Programs" in the _Visual C++ Programmer's Guide_.
 
-Note that there is an error in the topic ["Receiving HTML Help Notification Messages in an MFC Application"](#Doc_11), described below.
+Note that there is an error in the topic ["Receiving HTML Help Notification Messages in an MFC Application"](ReadmeVC.htm#Doc_11), described below.
 
 #### <a name="Doc_11"></a>Error in Topic "Receiving HTML Help Notification Messages in an MFC Application"
 
@@ -1221,7 +1225,7 @@ As stated in the topic **COleDateTime::COleDateTime**, the default constructor i
 
 If you open a DLL to use its resources, you might get a message box that says a certain code page is required to support a foreign language. For example, if you open COMCTL32.DLL as "resources," you get a message box that says "Code page 950 is required to support a Chinese (Taiwan) language resource in this file."
 
-In such a case, you will have to install national language support (.nls) files. See [Multiple Language Resource Files](#MFC_27) for details.
+In such a case, you will have to install national language support (.nls) files. See [Multiple Language Resource Files](ReadmeVC.htm#MFC_27) for details.
 
 #### <a name="MFC_27"></a>Multiple Language Resource Files
 
@@ -1547,7 +1551,7 @@ AppWizard-generated MFC MDI Active Document containers will assert when running 
 	}</font></pre>
 
 3.  In the CMDIChildWnd-derived class, use ClassWizard to add a Windows message handler for WM_MDIACTIVATE.
-4.  In the OnMDIActivate function added in Step 2 above, add the following code to activate the first Active document contained in the Document/Frame/Views document.
+4.  In the OnMDIActivate function added in Step 2 above, add the following code to activate the first Active document contained in the Document/Frame/View�s document.
 
 <pre> <font face="Courier">CView *pView = GetActiveView();
 	ASSERT_VALID(pView);
@@ -1763,7 +1767,7 @@ To correct this problem, remove the following line from the .idl file:
 
 #### <a name="Sample_Program_Issues_29"></a>CIRCPROPS Sample Cannot Open circ.h Because of CIRC Problem
 
-The CIRCPROPS sample cannot open circ.h because of the MIDL error in CIRC described [above](#Sample_Program_Issues_28). You get the following error:
+The CIRCPROPS sample cannot open circ.h because of the MIDL error in CIRC described [above](ReadmeVC.htm#Sample_Program_Issues_28). You get the following error:
 
 > <font face="Courier">D:\samples\atl\circ\circProps.h(17) : fatal error C1083: Cannot open include file: 'circ.h': No such file or directory</font>
 
@@ -2147,7 +2151,7 @@ Add **/new** to the command line of Internet Explorer you designated in the **De
 
 STRICT type checking is now defined by default. You should define NO_STRICT if you do not want to use STRICT type checking.
 
-Note that the topic "Enabling STRICT Type Checking" in the _Visual C++ Programmer's Guide_ is [incorrect](#Doc_7).
+Note that the topic "Enabling STRICT Type Checking" in the _Visual C++ Programmer's Guide_ is [incorrect](ReadmeVC.htm#Doc_7).
 
 #### <a name="Compiler_31"></a>Remote Debugging: Debug Monitor Password Field in MSVCMON.exe Disabled
 
@@ -2432,21 +2436,3 @@ If you installed VCM 5.0 (previously available for web download) you will have t
 If you try to open an existing .mdb file from within VCM that is not a repository database (i.e., it does not contain the repository structure/tables), you will be asked if you want the repository tables added to the database. You should not do this for normal use; the repository should generally be in a separate database. This will work, but it can take as long as 10 minutes to create the repository structure in an existing .mdb file.
 
 To create a brand new .mdb file containing the repository structure, right-click in the folder outline, click Repository, click New, and then enter the name of the file you want to create.
-
-<script type="text/javascript">
-  function checkExpand( )
-  {
-     if ("" != event.srcElement.id)
-     {
-        var ch = event.srcElement.id + "Child";
-        var el = document.all[ch];
-        if (null != el)
-        {
-           el.style.display = "none" == el.style.display ? "" : "none";
-           if (el.style.display != "none")
-           //   el.scrollIntoView(true);
-           event.returnValue=false;
-        }
-     }
-  }
-</script>
