@@ -6,7 +6,7 @@
             <name>msvc</name>
             <c-extensions/>
             <cpp-extensions>cc,cpp</cpp-extensions>
-            <header-extensions>def,h,hxx,inc,ind,inf,inl,key,rh</header-extensions>
+            <header-extensions>def,h,hxx,inc,ind,inf,inl,key,rh,x</header-extensions>
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>

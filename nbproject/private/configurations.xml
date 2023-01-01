@@ -2224,6 +2224,9 @@
           <in>trees.h</in>
         </df>
       </df>
+      <in>autoexp.asm</in>
+      <in>langext.x</in>
+      <in>macrocpp.s</in>
     </df>
   </logicalFolder>
   <projectmakefile></projectmakefile>
