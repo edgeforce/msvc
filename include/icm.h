@@ -1,6 +1,6 @@
 /*++
 
-Copyright (c) 1996 Microsoft Corporation
+Copyright (c) 1996-1999 Microsoft Corporation
 
 Module Name:
 
@@ -16,6 +16,10 @@ Revision History:
 
 #ifndef _ICM_H_
 #define _ICM_H_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif
 
 #ifdef __cplusplus
 extern "C" {
@@ -169,10 +173,7 @@ typedef enum {
 
     BM_xRGBQUADS    = 0x0008,
     BM_xBGRQUADS    = 0x0010,
-    BM_xXYZQUADS    = 0x0301,
-    BM_xYxyQUADS,
-    BM_xLabQUADS,
-    BM_xG3CHQUADS,
+    BM_xG3CHQUADS   = 0x0304,
     BM_KYMCQUADS,
     BM_CMYKQUADS    = 0x0020,
 
@@ -217,7 +218,7 @@ typedef BMFORMAT *PBMFORMAT, *LPBMFORMAT;
 // Callback function definition
 //
 
-typedef BOOL (WINAPI *PBMCALLBACKFN)(ULONG, ULONG, ULONG);
+typedef BOOL (WINAPI *PBMCALLBACKFN)(ULONG, ULONG, LPARAM);
 typedef PBMCALLBACKFN LPBMCALLBACKFN;
 
 //
@@ -272,6 +273,13 @@ typedef PROFILEHEADER *PPROFILEHEADER, *LPPROFILEHEADER;
 #define SPACE_HLS               'HLS '
 #define SPACE_CMYK              'CMYK'
 #define SPACE_CMY               'CMY '
+#define SPACE_2_CHANNEL         '2CLR'
+#define SPACE_3_CHANNEL         '3CLR'
+#define SPACE_4_CHANNEL         '4CLR'
+#define SPACE_5_CHANNEL         '5CLR'
+#define SPACE_6_CHANNEL         '6CLR'
+#define SPACE_7_CHANNEL         '7CLR'
+#define SPACE_8_CHANNEL         '8CLR'
 
 //
 // Profile flag bitfield values
@@ -289,6 +297,22 @@ typedef PROFILEHEADER *PPROFILEHEADER, *LPPROFILEHEADER;
 
 //
 // Rendering Intents
+//
+// + INTENT_PERCEPTUAL            = LCS_GM_IMAGES for LOGCOLORSPACE
+//                                = DMICM_CONTRAST for DEVMODE
+//                                = "Pictures" for SetupColorMathing/Printer UI
+//
+// + INTENT_RELATIVE_COLORIMETRIC = LCS_GM_GRAPHICS for LOGCOLORSPACE
+//                                = DMICM_COLORIMETRIC for DEVMODE
+//                                = "Proof" for SetupColorMatching/Printer UI
+//
+// + INTENT_SATURATION            = LCS_GM_BUSINESS for LOGCOLORSPACE
+//                                = DMICM_SATURATE for DEVMODE
+//                                = "Graphics" for SetupColorMatching/Printer UI
+//
+// + INTENT_ABSOLUTE_COLORIMETRIC = LCS_GM_ABS_COLORIMETRIC for LOGCOLORSPACE
+//                                = DMICM_ABS_COLORIMETRIC for DEVMODE
+//                                = "Match" for SetupColorMatching/Printer UI
 //
 
 #define INTENT_PERCEPTUAL               0
@@ -331,10 +355,13 @@ typedef HPROFILE *PHPROFILE;
 typedef HANDLE HTRANSFORM;      // handle to color transform object
 
 //
-// Use built-in CMM selection in CreateMultiProfileTransform
+// CMM selection for CreateMultiProfileTransform and SelectCMM.
 //
 
 #define INDEX_DONT_CARE     0
+
+#define CMM_FROM_PROFILE    INDEX_DONT_CARE // Use CMM specified in profile.
+#define CMM_WINDOWS_DEFAULT 'Win '          // Use Windows default CMM always.
 
 //
 // Tags found in ICC profiles
@@ -347,7 +374,7 @@ typedef TAGTYPE   *PTAGTYPE, *LPTAGTYPE;
 // Profile enumeration data structure
 //
 
-#define ENUM_TYPE_VERSION    0x0200
+#define ENUM_TYPE_VERSION    0x0300
 
 typedef struct tagENUMTYPEA {
     DWORD   dwSize;             // structure size
@@ -369,6 +396,7 @@ typedef struct tagENUMTYPEA {
     DWORD   dwAttributes[2];    // device attributes
     DWORD   dwRenderingIntent;  // rendering intent
     DWORD   dwCreator;          // profile creator
+    DWORD   dwDeviceClass;      // device class
 } ENUMTYPEA, *PENUMTYPEA, *LPENUMTYPEA;
 
 
@@ -392,6 +420,7 @@ typedef struct tagENUMTYPEW {
     DWORD   dwAttributes[2];    // device attributes
     DWORD   dwRenderingIntent;  // rendering intent
     DWORD   dwCreator;          // profile creator
+    DWORD   dwDeviceClass;      // device class
 } ENUMTYPEW, *PENUMTYPEW, *LPENUMTYPEW;
 
 //
@@ -414,6 +443,7 @@ typedef struct tagENUMTYPEW {
 #define ET_ATTRIBUTES           0x00002000
 #define ET_RENDERINGINTENT      0x00004000
 #define ET_CREATOR              0x00008000
+#define ET_DEVICECLASS          0x00010000
 
 //
 // Flags for creating color transforms
@@ -469,17 +499,23 @@ typedef struct tagENUMTYPEW {
 //  Constants for flags
 //
 
-#define CMS_DISABLEICM          1       //  Disable color matching
-#define CMS_ENABLEPROOFING      2       //  Enable proofing
+#define CMS_DISABLEICM          1     // Disable color matching
+#define CMS_ENABLEPROOFING      2     // Enable proofing
 
-#define CMS_SETRENDERINTENT     4       //  Use passed in value
+#define CMS_SETRENDERINTENT     4     // Use passed in value
 #define CMS_SETPROOFINTENT      8
-#define CMS_SETMONITORPROFILE   0x10    //  Use passed in profile name initially
+#define CMS_SETMONITORPROFILE   0x10  // Use passed in profile name initially
 #define CMS_SETPRINTERPROFILE   0x20
 #define CMS_SETTARGETPROFILE    0x40
 
-#define CMS_USEHOOK             0x80    //  Use hook procedure in lpfnHook
-#define CMS_USEAPPLYCALLBACK    0x100   //  Use callback procedure when applied
+#define CMS_USEHOOK             0x80  // Use hook procedure in lpfnHook
+#define CMS_USEAPPLYCALLBACK    0x100 // Use callback procedure when applied
+#define CMS_USEDESCRIPTION      0x200 // Use profile description in UI
+                                      //   (default is filename)
+
+#define CMS_DISABLEINTENT       0x400 // Disable intent selection (render & proofing) always
+#define CMS_DISABLERENDERINTENT 0x800 // Disable rendering intent selection while in proofing mode
+                                      // Only proofing intent selection is enabled.
 
 //
 //  Used to denote too-small buffers (output only)
@@ -593,8 +629,8 @@ HTRANSFORM WINAPI CreateColorTransformA(LPLOGCOLORSPACEA, HPROFILE, HPROFILE, DW
 HTRANSFORM WINAPI CreateColorTransformW(LPLOGCOLORSPACEW, HPROFILE, HPROFILE, DWORD);
 HTRANSFORM WINAPI CreateMultiProfileTransform(PHPROFILE, DWORD, PDWORD, DWORD, DWORD, DWORD);
 BOOL       WINAPI DeleteColorTransform(HTRANSFORM);
-BOOL       WINAPI TranslateBitmapBits(HTRANSFORM, PVOID, BMFORMAT, DWORD, DWORD, DWORD, PVOID, BMFORMAT, DWORD, PBMCALLBACKFN, ULONG);
-BOOL       WINAPI CheckBitmapBits(HTRANSFORM , PVOID, BMFORMAT, DWORD, DWORD, DWORD, PBYTE, PBMCALLBACKFN, ULONG);
+BOOL       WINAPI TranslateBitmapBits(HTRANSFORM, PVOID, BMFORMAT, DWORD, DWORD, DWORD, PVOID, BMFORMAT, DWORD, PBMCALLBACKFN, LPARAM);
+BOOL       WINAPI CheckBitmapBits(HTRANSFORM , PVOID, BMFORMAT, DWORD, DWORD, DWORD, PBYTE, PBMCALLBACKFN, LPARAM);
 BOOL       WINAPI TranslateColors(HTRANSFORM, PCOLOR, DWORD, COLORTYPE, PCOLOR, COLORTYPE);
 BOOL       WINAPI CheckColors(HTRANSFORM, PCOLOR, DWORD, COLORTYPE, PBYTE);
 DWORD      WINAPI GetCMMInfo(HTRANSFORM, DWORD);
@@ -621,7 +657,6 @@ BOOL       WINAPI DisassociateColorProfileFromDeviceA(PCSTR, PCSTR, PCSTR);
 BOOL       WINAPI DisassociateColorProfileFromDeviceW(PCWSTR, PCWSTR, PCWSTR);
 BOOL       WINAPI SetupColorMatchingW(PCOLORMATCHSETUPW pcms);
 BOOL       WINAPI SetupColorMatchingA(PCOLORMATCHSETUPA pcms);
-
 
 #ifdef UNICODE
 
@@ -670,6 +705,200 @@ BOOL       WINAPI SetupColorMatchingA(PCOLORMATCHSETUPA pcms);
 #define SetupColorMatching                  SetupColorMatchingA
 
 #endif  // !UNICODE
+
+//
+// Transform returned by CMM
+//
+
+typedef HANDLE  HCMTRANSFORM;
+
+//
+// Pointer to ICC color profile data.
+//
+
+typedef PVOID   LPDEVCHARACTER;
+
+//
+// CMM API definition
+//
+
+BOOL WINAPI CMCheckColors(
+    HCMTRANSFORM hcmTransform,  // transform handle
+    LPCOLOR lpaInputColors,     // array of COLORs
+    DWORD nColors,              // COLOR array size
+    COLORTYPE ctInput,          // input color type
+    LPBYTE lpaResult            // buffer for results
+);
+
+BOOL WINAPI CMCheckColorsInGamut(
+    HCMTRANSFORM hcmTransform,  // transform handle
+    RGBTRIPLE *lpaRGBTriple,    // RGB triple array
+    LPBYTE lpaResult,           // buffer for results
+    UINT nCount                 // result buffer size
+);
+
+BOOL WINAPI CMCheckRGBs(
+    HCMTRANSFORM hcmTransform,  // transform handle
+    LPVOID lpSrcBits,           // source bitmap bits
+    BMFORMAT bmInput,           // source bitmap format
+    DWORD dwWidth,              // source bitmap width
+    DWORD dwHeight,             // source bitmap hight
+    DWORD dwStride,             // source bitmap delta
+    LPBYTE lpaResult,           // buffer for results
+    PBMCALLBACKFN pfnCallback,  // pointer to callback function
+    LPARAM ulCallbackData       // caller-defined parameter to callback
+);
+
+BOOL WINAPI CMConvertColorNameToIndex(
+    HPROFILE hProfile,
+    PCOLOR_NAME paColorName,
+    PDWORD paIndex,
+    DWORD dwCount
+);
+
+BOOL WINAPI CMConvertIndexToColorName(
+    HPROFILE hProfile,
+    PDWORD paIndex,
+    PCOLOR_NAME paColorName,
+    DWORD dwCount
+);
+
+BOOL WINAPI CMCreateDeviceLinkProfile(
+    PHPROFILE pahProfiles,    // array of profile handles
+    DWORD nProfiles,          // profile handle array size
+    PDWORD padwIntents,       // array of rendering intents
+    DWORD nIntents,           // intent array size
+    DWORD dwFlags,            // transform creation flags
+    LPBYTE *lpProfileData     // pointer to pointer to buffer
+);
+
+HCMTRANSFORM WINAPI CMCreateMultiProfileTransform(
+    PHPROFILE pahProfiles,    // array of profile handles
+    DWORD nProfiles,          // profile handle array size
+    PDWORD padwIntents,       // array of rendering intents
+    DWORD nIntents,           // intent array size
+    DWORD dwFlags             // transform creation flags
+);
+
+BOOL WINAPI CMCreateProfile(
+    LPLOGCOLORSPACEA lpColorSpace,  // pointer to a logical color space
+    LPDEVCHARACTER *lpProfileData   // pointer to pointer to buffer
+);
+
+BOOL WINAPI CMCreateProfileW(
+    LPLOGCOLORSPACEW lpColorSpace,  // pointer to a logical color space
+    LPDEVCHARACTER *lpProfileData   // pointer to pointer to buffer
+);
+
+HCMTRANSFORM WINAPI CMCreateTransform(
+    LPLOGCOLORSPACEA lpColorSpace,       // pointer to logical color space
+    LPDEVCHARACTER lpDevCharacter,       // profile data
+    LPDEVCHARACTER lpTargetDevCharacter  // target profile data
+);
+
+HCMTRANSFORM WINAPI CMCreateTransformW(
+    LPLOGCOLORSPACEW lpColorSpace,       // pointer to logical color space
+    LPDEVCHARACTER lpDevCharacter,       // profile data
+    LPDEVCHARACTER lpTargetDevCharacter  // target profile data
+);
+
+HCMTRANSFORM WINAPI CMCreateTransformExt(
+    LPLOGCOLORSPACEA lpColorSpace,        // pointer to logical color space
+    LPDEVCHARACTER lpDevCharacter,        // profile data
+    LPDEVCHARACTER lpTargetDevCharacter,  // target profile data
+    DWORD dwFlags                         // creation flags
+);
+
+HCMTRANSFORM WINAPI CMCreateTransformExtW(
+    LPLOGCOLORSPACEW lpColorSpace,        // pointer to logical color space
+    LPDEVCHARACTER lpDevCharacter,        // profile data
+    LPDEVCHARACTER lpTargetDevCharacter,  // target profile data
+    DWORD dwFlags                         // creation flags
+);
+
+BOOL WINAPI CMDeleteTransform(
+    HCMTRANSFORM hcmTransform             // transform handle to be deleted.
+);
+
+DWORD WINAPI CMGetInfo(
+    DWORD dwInfo
+);
+
+BOOL WINAPI CMGetNamedProfileInfo(
+    HPROFILE hProfile,                    // profile handle
+    PNAMED_PROFILE_INFO pNamedProfileInfo // pointer to named profile info
+);
+
+BOOL WINAPI CMGetPS2ColorRenderingDictionary(
+    HPROFILE hProfile,
+    DWORD dwIntent,
+    LPBYTE lpBuffer,
+    LPDWORD lpcbSize,
+    LPBOOL lpbBinary
+);
+
+BOOL WINAPI CMGetPS2ColorRenderingIntent(
+    HPROFILE hProfile,
+    DWORD dwIntent,
+    LPBYTE lpBuffer,
+    LPDWORD lpcbSize
+);
+
+BOOL WINAPI CMGetPS2ColorSpaceArray(
+    HPROFILE hProfile,
+    DWORD dwIntent,
+    DWORD dwCSAType,
+    LPBYTE lpBuffer,
+    LPDWORD lpcbSize,
+    LPBOOL lpbBinary
+);
+
+BOOL WINAPI CMIsProfileValid(
+    HPROFILE hProfile,                  // proflle handle
+    LPBOOL lpbValid                     // buffer for result.
+);
+
+BOOL WINAPI CMTranslateColors(
+    HCMTRANSFORM hcmTransform,          // transform handle
+    LPCOLOR lpaInputColors,             // pointer to input color array
+    DWORD nColors,                      // number of color in color array
+    COLORTYPE ctInput,                  // input color type
+    LPCOLOR lpaOutputColors,            // pointer to output color array
+    COLORTYPE ctOutput                  // output color type
+);
+
+BOOL WINAPI CMTranslateRGB(
+    HCMTRANSFORM hcmTransform,
+    COLORREF ColorRef,
+    LPCOLORREF lpColorRef,
+    DWORD dwFlags
+);
+
+BOOL WINAPI CMTranslateRGBs(
+    HCMTRANSFORM hcmTransform,
+    LPVOID lpSrcBits,
+    BMFORMAT bmInput,
+    DWORD dwWidth,
+    DWORD dwHeight,
+    DWORD dwStride,
+    LPVOID lpDestBits,
+    BMFORMAT bmOutput,
+    DWORD dwTranslateDirection
+);
+
+BOOL WINAPI CMTranslateRGBsExt(
+    HCMTRANSFORM hcmTransform,
+    LPVOID lpSrcBits,
+    BMFORMAT bmInput,
+    DWORD dwWidth,
+    DWORD dwHeight,
+    DWORD dwInputStride,
+    LPVOID lpDestBits,
+    BMFORMAT bmOutput,
+    DWORD dwOutputStride,
+    LPBMCALLBACKFN lpfnCallback,
+    LPARAM ulCallbackData
+);
 
 #ifdef __cplusplus
 }
