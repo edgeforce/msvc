@@ -14,3 +14,7 @@
 	path = directx8
 	url = https://github.com/edgeforce/directx8
 	branch = master
+[submodule "glide3"]
+	path = glide3
+	url = https://github.com/edgeforce/glide3
+	branch = master
