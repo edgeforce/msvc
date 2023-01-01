@@ -1,8 +1,6 @@
-<table width="624" cellspacing="0" border="0"></table>
+<script language="JSCRIPT">function checkExpand( ) { if ("" != event.srcElement.id) { var ch = event.srcElement.id + "Child"; var el = document.all[ch]; if (null != el) { el.style.display = "none" == el.style.display ? "" : "none"; if (el.style.display != "none") // el.scrollIntoView(true); event.returnValue=false; } } }</script>
 
-<font size="2" face="Verdana"><script language="JSCRIPT">function checkExpand( ) { if ("" != event.srcElement.id) { var ch = event.srcElement.id + "Child"; var el = document.all[ch]; if (null != el) { el.style.display = "none" == el.style.display ? "" : "none"; if (el.style.display != "none") // el.scrollIntoView(true); event.returnValue=false; } } }</script>
-
-## <a name="readmevc_top">Visual C++ Readme</a>
+## <a name="readmevc_top">Visual C++ Reversed D Readme</a>
 
 ©1998 Microsoft Corporation. All rights reserved.
 
