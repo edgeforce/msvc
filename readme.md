@@ -19,10 +19,15 @@ Contents <font size="2" face="Verdana,Arial,Helvetica" color="#000000">- Click a
 <div id="SetupChild">
 
 > [Protected-Mode CD-ROM Driver Required on Windows 95 for Visual C++ Installation](ReadmeVC.htm#Setup_3)
+
 > [Use Knowledge Base Articles to Solve Setup and Operating Problems](ReadmeVC.htm#Setup_4)
+
 > [How to Report Visual C++ Bugs on the WWW](ReadmeVC.htm#Setup_5)
+
 > [Viewing "ANSI Character Code Chart" in HTML Help Requires an English System](ReadmeVC.htm#Setup_6)
+
 > [Resource Viewer and Compiler Not Installed in Some Custom Setup Configurations](ReadmeVC.htm#Setup_7)
+
 > [Avoiding Problems Associated with Installing New SDKs](ReadmeVC.htm#Setup_8)
 
 </div>
