@@ -2,3 +2,15 @@
 	path = radtools
 	url = https://github.com/edgeforce/radtools
 	branch = master
+[submodule "d3d"]
+	path = d3d
+	url = https://github.com/edgeforce/d3d
+	branch = master
+[submodule "3dfx"]
+	path = 3dfx
+	url = https://github.com/edgeforce/3dfx
+	branch = master
+[submodule "directx8"]
+	path = directx8
+	url = https://github.com/edgeforce/directx8
+	branch = master
