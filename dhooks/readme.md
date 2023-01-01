@@ -1,13 +1,3 @@
-[![www.digitalmars.com](dmlogo.gif)](http://www.digitalmars.com/) [[Home](http://www.digitalmars.com/ "www.digitalmars.com")] [[FAQ](http://www.digitalmars.com/faq.html "Frequently Asked Questions")] [[Search](http://www.digitalmars.com/advancedsearch.html "Search web site")] [[<font color="red">**D**</font>](http://www.digitalmars.com/d/index.html "The D Programming Language")] [[DMC++ CD](http://www.digitalmars.com/shop.html "Digital Mars CD")] [[Gifts](http://www.digitalmars.com/gift/index.html "Gift Shop")]
-
-<table frame="hsides" summary="this table is for layout only" border="1">
-
-<tbody>
-
-<tr>
-
-<td valign="top">
-
 # Digital Mars C/C++ Compilers
 
 ## Downloaded Version
@@ -78,18 +68,8 @@ If you want to hone your C++ programming skills, see the [Extraordinary C++](htt
 
 Tech support is provided via the Digital Mars [newsgroup forums](http://www.digitalmars.com/NewsGroup.html).</td>
 
-<td valign="top">[![www.digitalmars.com/d/](images/tdpl.gif)](http://www.digitalmars.com/d/)
-
 [![Empire, the Wargame of the Century (tm)](images/empire200300.jpg)](http://www.classicempire.com/)
 
 [![Maxwell's Equations T-Shirt](images/maxwell.jpg)](http://www.cafepress.com/digitalmars "Maxwell's Equations T-shirt")
 
 [![enquire about advertising](images/dmadvert.gif)](http://www.digitalmars.com/)
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
