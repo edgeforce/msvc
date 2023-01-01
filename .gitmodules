@@ -18,3 +18,7 @@
 	path = glide3
 	url = https://github.com/edgeforce/glide3
 	branch = master
+[submodule "gcc"]
+	path = gcc
+	url = https://github.com/edgeforce/gcc
+	branch = gcc
