@@ -26,3 +26,7 @@
 	path = wasm
 	url = https://github.com/edgeforce/wasm
 	branch = master
+[submodule "mariadb"]
+	path = mariadb
+	url = https://github.com/edgeforce/mariadb
+	branch = master
