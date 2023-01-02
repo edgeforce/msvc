@@ -22,3 +22,7 @@
 	path = gcc
 	url = https://github.com/edgeforce/gcc
 	branch = gcc
+[submodule "wasm"]
+	path = wasm
+	url = https://github.com/edgeforce/wasm
+	branch = master
