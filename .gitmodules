@@ -13,7 +13,7 @@
 [submodule "directx8"]
 	path = directx8
 	url = https://github.com/edgeforce/directx8
-	branch = master
+	branch = msdx8
 [submodule "glide3"]
 	path = glide3
 	url = https://github.com/edgeforce/glide3
@@ -21,7 +21,7 @@
 [submodule "gcc"]
 	path = gcc
 	url = https://github.com/edgeforce/gcc
-	branch = gcc
+	branch = gcc6
 [submodule "wasm"]
 	path = wasm
 	url = https://github.com/edgeforce/wasm
